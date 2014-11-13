@@ -1,0 +1,139 @@
+<apex:page standardController="Rep__c" extensions="RepSearchController" sidebar="false">
+<apex:form >
+  <apex:pageMessages id="errors" />
+            <apex:actionstatus id="status">
+                <apex:facet name="start">
+                    <div class="waitingSearchDiv" id="el_loading" style="background-color: #fbfbfb; height: 200%; opacity: 0.65; width: 100%;">
+                        <div class="waitingHolder" style="top: 74.2px; opacity: 1.0; width: 91px;">
+                            <img class="waitingImage" src="/img/loading.gif" title="Please Wait..." /> 
+                            <span class="waitingDescription">Searching...</span>
+                        </div>
+                    </div>
+                </apex:facet>
+            </apex:actionstatus>
+           <apex:actionstatus id="status1">
+                <apex:facet name="start">
+                    <div class="waitingSearchDiv" id="el_loading" style="background-color: #fbfbfb; height: 200%; opacity: 0.65; width: 100%;">
+                        <div class="waitingHolder" style="top: 74.2px; opacity: 1.0; width: 91px;">
+                            <img class="waitingImage" src="/img/loading.gif" title="Please Wait..." /> 
+                            <span class="waitingDescription">Loading...</span>
+                        </div>
+                    </div>
+                </apex:facet>
+            </apex:actionstatus>
+            
+  <apex:pageBlock title="Search Rep">
+  <table width="100%" border="0">
+    <tr>  
+        <td width="200" valign="top">
+            <apex:actionFunction name="searchServer" action="{!runSearch}" rerender="results,errors" status="status"/>
+            <apex:pageBlock >
+
+          <table cellpadding="2" cellspacing="2">
+              <tr>
+                <td style="font-weight:bold;">Country<br/>
+                    <apex:selectlist value="{!strCountry}" multiselect="false" size="1">
+                        <apex:selectOptions value="{!Country}"/>
+                  </apex:selectlist>
+                </td>
+              </tr>
+              
+              <tr> 
+                <td style="font-weight:bold;">Territory Coverage<br/>
+                <apex:inputText value="{!StrZip}"/>
+                </td>
+              </tr>
+              
+              <tr>
+                <td style="font-weight:bold;">Brand<br/>
+                    <apex:selectlist value="{!strBrand}" multiselect="false" size="1">
+                      <apex:selectOptions value="{!Brand}"/>
+                  </apex:selectlist>         
+                </td>
+              </tr>
+              
+              <tr>
+                <td style="font-weight:bold;">Industry<br/>
+                  <apex:selectlist value="{!lstIndustry}" multiselect="true" size="4">
+                    <apex:selectOptions value="{!Industries}"/>
+                  </apex:selectlist>
+                </td>
+              </tr>
+              
+              <tr>
+                <td style="font-weight:bold;">Rental House only<br/>
+                    <apex:inputCheckBox value="{!blnRent}"/>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                    <input value="Search" type="button" class="btn" onclick="javascript:doSearch();"/>
+                    <input type="button" class="btn" value="Clear Search" onclick="window.location.reload();"/>
+                </td>
+              </tr>
+        </table>
+        
+      </apex:pageBlock></td>
+      
+      <td valign="top">
+ 
+    <apex:pageBlock mode="edit" id="results" >
+ 
+        <apex:pageBlockTable value="{!lstPageRep}" var="rep" rendered="{!showTable}" > 
+            <apex:column headerValue="Name">        
+                <apex:outputlink value="/{!rep.id}" target="_blank">{!rep.Name}</apex:outputlink>
+            </apex:column>
+ 
+            <apex:column headerValue="Email">      
+                <apex:outputField value="{!rep.Email__c}"/>
+            </apex:column>
+ 
+            <apex:column headerValue="Phone">      
+                <apex:outputField value="{!rep.Phone__c}"/>
+            </apex:column>
+            
+            <apex:column headerValue="Fax">
+                <apex:outputField value="{!rep.Fax__c}"/>
+            </apex:column>
+            
+            <apex:column headerValue="Sales Channel Partner">
+                <apex:outputlink value="/{!rep.Sales_Channel_Partner__r.Id}">{!rep.Sales_Channel_Partner__r.Name}</apex:outputlink>
+            </apex:column>
+
+            <apex:column headerValue="Address">
+                <apex:outputField value="{!rep.Address_line_1__c}"/>
+                <br></br><apex:outputField value="{!rep.Address_line_2__c}"/>
+            </apex:column>
+
+            <apex:column headerValue="Authorized Products">
+                <apex:outputField value="{!rep.Authorized_Products__c}"/>
+            </apex:column>
+            
+            <apex:column headerValue="Industry">       
+                <apex:outputField value="{!rep.Sales_Channel_Partner__r.Industry__c}"/>
+            </apex:column>
+            
+        </apex:pageBlockTable>
+ 
+    </apex:pageBlock>
+            <apex:outputpanel id="op">
+	            <apex:commandButton value="Previous" action="{!prevActn}" rerender="results" status="status1"/>
+	            <apex:commandButton value="Next" action="{!nextActn}" rerender="results" status="status1"/></apex:outputpanel>
+    </td></tr>
+      </table>
+ 
+    
+ 
+    
+    <script type="text/javascript">
+      
+      function doSearch() {
+      
+        searchServer();
+      }
+      </script> 
+</apex:pageBlock>
+  </apex:form>
+  
+</apex:page>

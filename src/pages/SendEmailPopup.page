@@ -1,0 +1,157 @@
+<!-- 
+     UPDATED BY: LENNARD SANTOS(Cloud Sherpas)
+     DATE UPDATED: 11 - 12 - 2013
+     PURPOSE: Add address,mobile and email field on the Email. Updated page to have a related list for mass email. add CSS styling for custom popup.
+ -->
+<apex:page standardcontroller="Lead" extensions="SendLeadEmailController" sidebar="false">
+<style>
+        .custPopup{
+            background-color: white;
+            border-width: 1px;
+            border-style: solid;
+            z-index: 9999;
+            left: 50%;
+            padding:15px;
+            position: absolute;
+            
+            /*popup delete position*/
+            width: 500px;
+            //height: 80px;
+            margin-left: -200px;
+            top:300px;
+        }
+        .popupBackground{
+            background-color:black;
+            opacity: 0.20;
+            filter: alpha(opacity = 20);
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 9998;
+        }
+    </style>
+
+
+
+
+
+
+    <apex:form >
+       <apex:pagemessages id="er"/>
+        <apex:pageBlock title="Email Lead" id="pb">
+           <p style="text-align:left; font: 20pt; courier; color: black;"> 
+                Hello,
+
+                <br></br><br></br>I wanted to provide you with details on a new lead I have received, that I think you would be interested in. The details are:
+                
+                <br></br><br></br><span style="font-weight:bold;">Name:</span>&nbsp;&nbsp;&nbsp;&nbsp;{!Lead.Name}
+                <br></br><br></br><span style="font-weight:bold;">Company:</span> &nbsp;&nbsp;&nbsp;&nbsp;{!Lead.Company}
+                <br></br><br></br><span style="font-weight:bold;">Title:</span>&nbsp;&nbsp;&nbsp;&nbsp;{!Lead.Title}
+                <br></br><br></br><span style="font-weight:bold;">Address:</span>&nbsp;&nbsp;&nbsp;&nbsp;<apex:outputLabel >{!Lead.Street}
+                <br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{!Lead.City},&nbsp;{!Lead.State}&nbsp;{!Lead.PostalCode}
+                <br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{!Lead.Country}
+                </apex:outputLabel>
+                <br></br><br></br><span style="font-weight:bold;">Phone:</span>&nbsp;&nbsp;&nbsp;&nbsp;{!Lead.Phone}
+                <br></br><br></br><span style="font-weight:bold;">Email:</span>&nbsp;&nbsp;&nbsp;&nbsp;{!Lead.Email}
+                <br></br><br></br><span style="font-weight:bold;">Website:</span>&nbsp;&nbsp;&nbsp;&nbsp;{!Lead.Website}
+                <br></br><br></br><span style="font-weight:bold;">Campaign:</span>&nbsp;&nbsp;&nbsp;&nbsp;{!campName}
+                <br></br><br></br><span style="font-weight:bold;">Source:</span>&nbsp;&nbsp;&nbsp;&nbsp;{!Lead.LeadSource}
+                <br></br><br></br><span style="font-weight:bold;">Industry:</span>&nbsp;&nbsp;&nbsp;&nbsp;{!Lead.Industry}
+                <br></br><br></br><span style="font-weight:bold;">Product Lines of Interest:</span>&nbsp;&nbsp;&nbsp;&nbsp;{!Lead.Product__c}
+                <br></br><br></br><span style="font-weight:bold;">Applications of Interest: </span>&nbsp;&nbsp;&nbsp;&nbsp;{!Lead.Applications_Of__c}
+                <br></br><br></br><span style="font-weight:bold;">Purchase Timeframe: </span>&nbsp;&nbsp;&nbsp;&nbsp;{!Lead.Purchase_Timeframe__c}
+                <br></br><br></br><span style="font-weight:bold;">Description/Notes: </span>&nbsp;&nbsp;&nbsp;&nbsp;{!Lead.Description}
+                <br></br><br></br>Regards,
+                
+                <br></br><br></br>{!strSender}
+            </p>        
+        </apex:pageBlock>
+        <br></br>
+        <apex:commandButton value="Cancel" action="{!Cancel}"/>
+        <!--
+            <span style="font-weight:bold;">Send Email To : </span><apex:inputText value="{!strEmail}"/>  
+            <apex:commandButton value="Send Email" action="{!btnSend}" rerender="pb,er"/>
+         -->   
+         <br/>
+         <br/>
+    </apex:form>
+    <apex:form id="frm2">
+        <apex:pageBlock title="Mass Email" id="pbMsEmail">
+            <apex:pageBlockButtons location="top" >
+                <apex:commandButton value="Add Contacts" action="{!showEmailPopup}" reRender="deletePopup"/>
+                <apex:commandButton value="Add/Remove Email Address" action="{!showManualPopup}" reRender="manualPopup"/>
+                <apex:commandButton value="Remove from List" action="{!removeFromList}"reRender="pbMsEmail,er" rendered="{!mEmailRender}"/>
+                <apex:commandButton value="Send Email" action="{!sendMassEmail}" reRender="pbMsEmail,er"/>
+                
+            </apex:pageBlockButtons>
+            <apex:pageBlockTable value="{!conListSelected}" var="conS" rendered="{!mEmailRender}" style="width:100%">
+                <apex:column style="width:5%">
+                    <apex:inputCheckbox value="{!conS.isChecked}"/>
+                </apex:column>
+                <apex:column headerValue="Contact Name" style="width:50%">
+                    <apex:outputField value="{!conS.con.Name}"/>
+                </apex:column>
+                <apex:column headerValue="Email" style="width:45%">
+                    <apex:outputField value="{!conS.con.Email}"/>
+                </apex:column>
+            </apex:pageBlockTable>
+            
+            <apex:pageBlockTable value="{!strEmailsplitted}" var="strES" rendered="{!strEmailTable}" >
+                <apex:column headerValue="Manual Email Address">
+                    <apex:outputText value="{!strES}"/>
+                </apex:column>
+            </apex:pageBlockTable>
+            
+                      
+        </apex:pageBlock>
+        
+        
+        <apex:outputPanel id="deletePopup">
+            <apex:outputPanel styleClass="popupBackground" layout="block" rendered="{!addEmailPopup}"/>
+            <apex:outputPanel styleClass="custPopup" layout="block" rendered="{!addEmailPopup}">
+                <br/>
+                <h2>Enter Search Name:</h2>
+                <apex:inputText value="{!searchString}" />
+                <apex:commandButton value="Search" action="{!searchBtn}" reRender="pbTable,errMsg,pBlk1"/>
+                <br/><br/>
+                <apex:outputText id="errMsg" value="{!ErrorMsg}" style="color:red"></apex:outputText>
+                <apex:pageBlock title="Contact List" id="pBlk1" >
+                    <apex:pageBlockTable value="{!conList}" var="conL" id="pbTable" rendered="{!tblRender}">
+                        <apex:column >
+                            <apex:inputCheckbox value="{!conL.isChecked}"/>
+                        </apex:column>
+                        <apex:column headerValue="Name">
+                            <apex:outputField value="{!conL.con.Name}"/>
+                        </apex:column>
+                        <apex:column headerValue="Email">
+                            <apex:outputField value="{!conL.con.Email}"/>
+                        </apex:column>
+                    </apex:pageBlockTable>
+                </apex:pageBlock>
+                <apex:commandButton value="Add To Email List" action="{!saveConList}" rerender="deletePopup,pbMsEmail"/>
+                <apex:commandButton value="Cancel" action="{!closeEmailPopup}" rerender="deletePopup"/>
+             </apex:outputPanel>
+        </apex:outputPanel>
+        
+        
+        <apex:outputPanel id="manualPopup">
+            <apex:outputPanel styleClass="popupBackground" layout="block" rendered="{!manualPopup}"/>
+            <apex:outputPanel styleClass="custPopup" layout="block" rendered="{!manualPopup}">
+                <br/>
+                <h2>Enter Email Address:</h2>
+                <br/>
+                <apex:inputTextarea value="{!strEmail}" rows="4" cols="95"/>
+                <br/>
+                <h2><apex:outputText value="Use ';' for separating different email addresses" style="color:red"/></h2>
+                <br/>
+                <br/>
+                <apex:commandButton value="Add" action="{!addManualAddress}" reRender="manualPopup,pbMsEmail,er"/>
+                <apex:commandButton value="Cancel" action="{!hideManualPopup}" reRender="manualPopup"/>   
+            </apex:outputPanel>
+        </apex:outputPanel>
+    </apex:form>
+</apex:page>

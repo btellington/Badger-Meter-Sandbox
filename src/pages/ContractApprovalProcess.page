@@ -1,0 +1,15 @@
+<apex:page standardController="Rep__c" extensions="CallApprovalProcess" tabstyle="Rep__c">
+    <apex:form >
+    <apex:pagemessages />
+    <apex:outputlink value="/{!Rep__c.id}">{!Rep__c.Name}</apex:outputlink>
+        <apex:pageBlock id="pb" rendered="{!showBlock}"> 
+            <apex:pageBlockSection title="Rep Contract Approval" id="summary" columns="1">
+                <apex:inputField value="{!Rep__c.Contract_Status__c}"/>
+                <apex:inputField value="{!Rep__c.Contract_Notes__c}" style="width:400px;height:100px"/>
+                <apex:inputField value="{!Rep__c.Rep_Disposition__c}"/> 
+            </apex:pageBlockSection>        
+        <apex:commandButton action="{!btnSubmitApproval}" id="saveButton" value="Submit for Approval" rerender="pb"/>
+        <apex:commandButton action="{!Cancel}" id="cancelButton" value="{!$Label.site.cancel}" />
+     </apex:pageBlock>
+    </apex:form>
+</apex:page>

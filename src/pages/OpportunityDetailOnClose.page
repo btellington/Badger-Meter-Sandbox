@@ -1,0 +1,41 @@
+<apex:page standardController="Opportunity" extensions="OpportunityDetailOnCloseController">
+ <apex:form >
+     <apex:inputHidden value="{!Opportunity.AccountId}"/>
+     <apex:sectionHeader title="Opportunity" subtitle="{!Opportunity.Name}"/>
+     <apex:pageBlock >
+            <apex:pageBlockSection title="Opportunity Detail" id="summary">
+                <apex:outputField value="{!Opportunity.Name}"/>
+                <apex:outputField value="{!Opportunity.AccountId}"/>    
+              <apex:pageBlockSectionItem >
+                 <apex:outputLabel value="Stage"/>
+                  <apex:actionRegion >
+                  <apex:selectList size="1" value="{!Opportunity.StageName}" title="Outcome" >
+                    <apex:selectOption itemValue="Closed Won" itemLabel="Closed Won" />
+                    <apex:selectOption itemValue="Closed Lost" itemLabel="Closed Lost" />    
+                </apex:selectList>
+                 </apex:actionRegion>
+            </apex:pageBlockSectionItem>      
+            <apex:inputField id="Closedate" value="{!Opportunity.CloseDate}" required="true"/>
+              <script>
+                var today = new Date();
+                var dd = today.getDate();
+                var mm = today.getMonth()+1;
+                var yyyy = today.getFullYear(); 
+                today = mm+"/"+dd+"/"+yyyy;             
+                document.getElementById('{!$Component.Closedate}').value=today;
+              </script>
+            </apex:PageBlockSection>
+           <apex:pageBlockSection title="Opportunity Results" id="Results" columns="1">
+            <apex:inputfield value="{!Opportunity.Lost_To__c}"/>
+            <apex:inputfield value="{!Opportunity.Win_Loss_Reason__c}" required="true"/>
+            <apex:inputfield value="{!Opportunity.Win_Loss_Notes__c}" required="true" style="width:400px;height:100px"/>
+        </apex:pageBlockSection>
+        <apex:pageBlockSection title="Action Items" id="ActionResults" columns="2">
+            <apex:inputfield value="{!Opportunity.Send_thank_you_note__c}"/>
+            <apex:inputfield value="{!Opportunity.Schedule_1_yr_anniversary_reminder_follo__c}"/>    
+        </apex:pageBlockSection>
+        <apex:commandButton action="{!Save}" id="saveButton" value="{!$Label.site.save}" />
+        <apex:commandButton action="{!Cancel}" id="cancelButton" value="{!$Label.site.cancel}" />
+     </apex:pageBlock>
+   </apex:form>
+</apex:page>
