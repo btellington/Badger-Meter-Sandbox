@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Dynasonics TFX Ultra Update 2014-06-24</name>
+    <style>none</style>
+    <subject>Special Announcement – Update on Dynasonics TFX Ultra Platform</subject>
+    <textOnly>Update on Dynasonics TFX Ultra Platform | June 24, 2014
+
+Confidential &amp; Proprietary
+
+
+Dear Dynasonics Representative:
+
+
+Previously, we communicated a temporary extended lead time for all TFX Ultra meters and for TFXL meters with Display Option 2. As of today, we are resuming standard lead times for the General Safety meters (approval option –N). Our component inventory levels and shipments have returned to normal, earlier than expected, and all backlogged orders for general safety meters are fulfilled.
+
+
+Unfortunately, the certifying agency for hazardous location TFX Ultra meters discovered an irregularity in their documentation which caused them to place our shipments on hold. Our team is working with the agency to help clarify any questions and continues to be in touch with them on a daily basis to resolve this issue. We do not have a final date for resolution of this issue, but it will likely extend the delay for at least another week. We are working diligently to expedite the resolution and will communicate any updates as they become available.
+
+
+Again, we apologize for the inconvenience and appreciate your patience. If you have additional questions, please let us know and we will provide as much information as possible.
+
+
+Regards,
+
+
+Cheryl Ades Anspach
+
+Marketing Manager
+
+
+
+
+Click to download the announcement in PDF format.
+
+
+
+As always, we welcome your input. Please contact us with any comments or suggestions you may have. Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

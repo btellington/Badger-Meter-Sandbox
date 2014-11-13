@@ -1,0 +1,10 @@
+Hello, 
+
+This is an automated email from Salesforce.com requesting that you create a Customer Account record in the ERP system. An opportunity in Salesforce has been marked as Closed Won for the following prospective account. 
+
+Details: 
+Account Name: {!Opportunity.Account} 
+Account URL: {!Account.Link} 
+Opportunity Name: {!Opportunity.Name} 
+
+Thanks

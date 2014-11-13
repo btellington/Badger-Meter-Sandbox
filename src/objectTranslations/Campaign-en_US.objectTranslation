@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Owner</value>
+        </caseValues>
+        <name>campaign_owner</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Channel</value>
+        </caseValues>
+        <name>type_campaign</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Active/Inactive --></label>
+        <name>Active_In__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Actual Response (%) --></label>
+        <name>Actual_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign Goal --></label>
+        <name>Campaign__c</name>
+        <picklistValues>
+            <masterLabel>Corporate Awareness</masterLabel>
+            <translation><!-- Corporate Awareness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Program</masterLabel>
+            <translation><!-- Sales Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution Launch</masterLabel>
+            <translation><!-- Solution Launch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution/Brand Awareness</masterLabel>
+            <translation><!-- Solution/Brand Awareness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thought Leadership / Education</masterLabel>
+            <translation><!-- Thought Leadership / Education --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The target language the campaign will be using. --></help>
+        <label><!-- Language --></label>
+        <name>Language__c</name>
+        <picklistValues>
+            <masterLabel>Dutch</masterLabel>
+            <translation><!-- Dutch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation><!-- English --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French</masterLabel>
+            <translation><!-- French --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>German</masterLabel>
+            <translation><!-- German --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italian</masterLabel>
+            <translation><!-- Italian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japanese</masterLabel>
+            <translation><!-- Japanese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norwegian</masterLabel>
+            <translation><!-- Norwegian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portuguese</masterLabel>
+            <translation><!-- Portuguese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russian</masterLabel>
+            <translation><!-- Russian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simple Chinese</masterLabel>
+            <translation><!-- Simple Chinese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spanish</masterLabel>
+            <translation><!-- Spanish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swedish</masterLabel>
+            <translation><!-- Swedish --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Media Source File --></label>
+        <name>Media_Source_File__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Sent --></label>
+        <name>Number_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Contact --></label>
+        <name>Partner_Contact__c</name>
+        <relationshipLabel><!-- Campaigns --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Publication --></label>
+        <name>Publication__c</name>
+        <picklistValues>
+            <masterLabel>AGA Journal</masterLabel>
+            <translation><!-- AGA Journal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASHRAE Journal</masterLabel>
+            <translation><!-- ASHRAE Journal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AWWA Journal</masterLabel>
+            <translation><!-- AWWA Journal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automotive Test and Measurement Expo</masterLabel>
+            <translation><!-- Automotive Test and Measurement Expo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Building Operating Management  (BOM)</masterLabel>
+            <translation><!-- Building Operating Management  (BOM) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Journal</masterLabel>
+            <translation><!-- Business Journal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemical Engineering</masterLabel>
+            <translation><!-- Chemical Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemical Engineering Progress</masterLabel>
+            <translation><!-- Chemical Engineering Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting Specifying Engineer</masterLabel>
+            <translation><!-- Consulting Specifying Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Control</masterLabel>
+            <translation><!-- Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Control Magazine eLit</masterLabel>
+            <translation><!-- Control Magazine eLit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flow Control</masterLabel>
+            <translation><!-- Flow Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flow Control E-Blasts</masterLabel>
+            <translation><!-- Flow Control E-Blasts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GlobalSpec</masterLabel>
+            <translation><!-- GlobalSpec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green Industry Magazine</masterLabel>
+            <translation><!-- Green Industry Magazine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greening Our Blue Borders</masterLabel>
+            <translation><!-- Greening Our Blue Borders --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HPAC</masterLabel>
+            <translation><!-- HPAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial Equipment News</masterLabel>
+            <translation><!-- Industrial Equipment News --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial Water World</masterLabel>
+            <translation><!-- Industrial Water World --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial Water and Wasted Digest</masterLabel>
+            <translation><!-- Industrial Water and Wasted Digest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Irrigation and Green Industry</masterLabel>
+            <translation><!-- Irrigation and Green Industry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA Times</masterLabel>
+            <translation><!-- LA Times --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Municipal Sewer and Water</masterLabel>
+            <translation><!-- Municipal Sewer and Water --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NRWA Magazine</masterLabel>
+            <translation><!-- NRWA Magazine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oil Gas &amp; Mining Contractor</masterLabel>
+            <translation><!-- Oil Gas &amp; Mining Contractor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmaceutical Processing Magazine</masterLabel>
+            <translation><!-- Pharmaceutical Processing Magazine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmeceutical</masterLabel>
+            <translation><!-- Pharmeceutical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Power Grid International</masterLabel>
+            <translation><!-- Power Grid International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation><!-- Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pumps &amp; Systems</masterLabel>
+            <translation><!-- Pumps &amp; Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QR Code</masterLabel>
+            <translation><!-- QR Code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superintendent</masterLabel>
+            <translation><!-- Superintendent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TPO (Treatment Plant Operator)</masterLabel>
+            <translation><!-- TPO (Treatment Plant Operator) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The NEWS</masterLabel>
+            <translation><!-- The NEWS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turf</masterLabel>
+            <translation><!-- Turf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Infra</masterLabel>
+            <translation><!-- US Infra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utility Automation T&amp;D</masterLabel>
+            <translation><!-- Utility Automation T&amp;D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utility Products</masterLabel>
+            <translation><!-- Utility Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valve Magazine</masterLabel>
+            <translation><!-- Valve Magazine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WSO (Water Systems Operator)</masterLabel>
+            <translation><!-- WSO (Water Systems Operator) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Water &amp; Wastes Digest</masterLabel>
+            <translation><!-- Water &amp; Wastes Digest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Water Efficiency</masterLabel>
+            <translation><!-- Water Efficiency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Water Environment &amp; Technology (WE&amp;T)</masterLabel>
+            <translation><!-- Water Environment &amp; Technology (WE&amp;T) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Water Online</masterLabel>
+            <translation><!-- Water Online --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WaterWorld</masterLabel>
+            <translation><!-- WaterWorld --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation><!-- Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold</masterLabel>
+            <translation><!-- On Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned</masterLabel>
+            <translation><!-- Planned --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Advertisement - Digital</masterLabel>
+            <translation><!-- Advertisement - Digital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advertisement - Print</masterLabel>
+            <translation><!-- Advertisement - Print --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banner Ads</masterLabel>
+            <translation><!-- Banner Ads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Mail</masterLabel>
+            <translation><!-- Direct Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partners</masterLabel>
+            <translation><!-- Partners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promotion / Spiff</masterLabel>
+            <translation><!-- Promotion / Spiff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Relations</masterLabel>
+            <translation><!-- Public Relations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral Program</masterLabel>
+            <translation><!-- Referral Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminar / Conference / Show</masterLabel>
+            <translation><!-- Seminar / Conference / Show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telemarketing</masterLabel>
+            <translation><!-- Telemarketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Site</masterLabel>
+            <translation><!-- Web Site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webinar</masterLabel>
+            <translation><!-- Webinar --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Average bounce rate for messages in &quot;Released&quot; status for this campaign. --></help>
+        <label><!-- Average Bounce Rate --></label>
+        <name>iContactforSF__Average_Bounce_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Average click rate for messages in &quot;Released&quot; status for this campaign. --></help>
+        <label><!-- Average Click Rate --></label>
+        <name>iContactforSF__Average_Click_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Average open rate for messages in &quot;Released&quot; status for this campaign. --></help>
+        <label><!-- Average Open Rate --></label>
+        <name>iContactforSF__Average_Open_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Average unsubscribe rate for messages in &quot;Released&quot; status for this campaign. --></help>
+        <label><!-- Average Unsubscribe Rate --></label>
+        <name>iContactforSF__Average_Unsubscribe_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The first warning threshold for bounce rate, where green becomes yellow on the dashboard gauge. --></help>
+        <label><!-- Bounce Rate Caution % --></label>
+        <name>iContactforSF__Bounce_Rate_Warning_Threshold_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- The second warning threshold for bounce rate, where yellow becomes red on the dashboard gauge. --></help>
+        <label><!-- Bounce Rate Warning % --></label>
+        <name>iContactforSF__Bounce_Rate_Warning_Threshold_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- The first success threshold for click rate, where red becomes yellow on the dashboard gauge. --></help>
+        <label><!-- Click Rate Caution % --></label>
+        <name>iContactforSF__Click_Rate_Success_Threshold_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- The second success threshold for click rate, where yellow becomes green on the dashboard gauge. --></help>
+        <label><!-- Click Rate Success % --></label>
+        <name>iContactforSF__Click_Rate_Success_Threshold_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date/time of the last Update on the Campaign record. --></help>
+        <label><!-- Last Update Date --></label>
+        <name>iContactforSF__Last_Update_Statistics_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total number of messages in &quot;Released&quot; status, which are used for the rate averages for the campaign. --></help>
+        <label><!-- Message Statistic Count --></label>
+        <name>iContactforSF__Message_Statistic_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- The first success threshold for open rate, where red becomes yellow on the dashboard gauge. --></help>
+        <label><!-- Open Rate Caution % --></label>
+        <name>iContactforSF__Open_Rate_Success_Threshold_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- The second success threshold for open rate, where yellow becomes green on the dashboard gauge. --></help>
+        <label><!-- Open Rate Success % --></label>
+        <name>iContactforSF__Open_Rate_Success_Threshold_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Targeted Join Date1 --></label>
+        <name>iContactforSF__Targeted_Join_Date1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Targeted Join Date2 --></label>
+        <name>iContactforSF__Targeted_Join_Date2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total bounce rate for messages in &quot;Released&quot; status for this campaign (used to calculate average bounce rate). --></help>
+        <label><!-- Total Bounce Rate --></label>
+        <name>iContactforSF__Total_Bounce_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total click rate for messages in &quot;Released&quot; status for this campaign (used to calculate average click rate). --></help>
+        <label><!-- Total Click Rate --></label>
+        <name>iContactforSF__Total_Click_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total open rate for messages in &quot;Released&quot; status for this campaign (used to calculate average open rate). --></help>
+        <label><!-- Total Open Rate --></label>
+        <name>iContactforSF__Total_Open_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total unsubscribe rate for messages in &quot;Released&quot; status for this campaign (used to calculate average unsubscribe rate). --></help>
+        <label><!-- Total Unsubscribe Rate --></label>
+        <name>iContactforSF__Total_Unsubscribe_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The first success threshold for unsubscribe rate, where green becomes yellow on the dashboard gauge. --></help>
+        <label><!-- Unsubscribe Rate Caution % --></label>
+        <name>iContactforSF__Unsubscribe_Rate_Warning_Threshold_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- The second warning threshold for unsubscribe rate, where yellow becomes red on the dashboard gauge. --></help>
+        <label><!-- Unsubscribe Rate Warning % --></label>
+        <name>iContactforSF__Unsubscribe_Rate_Warning_Threshold_2__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Standard Salesforce Campaign --></label>
+        <name>Standard_Salesforce_Campaign</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- iContact Email Campaign --></label>
+        <name>iContact_Email_Campaign</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- ViewAllCampaignMembers --></label>
+        <name>ViewAllCampaignMembers</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ViewCampaignInfluenceReport --></label>
+        <name>ViewCampaignInfluenceReport</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Bounce_Rate_All_Messages --></label>
+        <name>iContactforSF__Bounce_Rate_All_Messages</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Click_Rate_for_All_Messages --></label>
+        <name>iContactforSF__Click_Rate_for_All_Messages</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Complaint_Rate_for_All_Messages --></label>
+        <name>iContactforSF__Complaint_Rate_for_All_Messages</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Open_Rate_for_All_Messages --></label>
+        <name>iContactforSF__Open_Rate_for_All_Messages</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_iContact_Message --></label>
+        <name>iContactforSF__Send_iContact_Message</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Targeted_Send --></label>
+        <name>iContactforSF__Targeted_Send</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Unsubscribe_Rate_for_All_Messages --></label>
+        <name>iContactforSF__Unsubscribe_Rate_for_All_Messages</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Update_Statistics --></label>
+        <name>iContactforSF__Update_Statistics</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ViewCampaignInfluenceReport --></label>
+        <name>iContactforSF__ViewCampaignInfluenceReport</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- iContact_Help --></label>
+        <name>iContactforSF__iContact_Help</name>
+    </webLinks>
+</CustomObjectTranslation>

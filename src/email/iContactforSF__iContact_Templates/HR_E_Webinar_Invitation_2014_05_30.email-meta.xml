@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>HR-E Webinar Invitation 2014-05-30</name>
+    <style>none</style>
+    <subject>Webinar Training Invitation - Introducing HR-E Encoders</subject>
+    <textOnly>Join us for a webinar introducing the new HR-E 8-Dial Mechanical Encoder
+
+
+When
+
+
+
+Friday, June 6th (two options)
+
+10:00 a.m. Central Register
+2:00 p.m. Central Register
+
+Presenter
+
+
+Jan Boyer, marketing manager-metering, will be conducting a brief, quick-hitting webinar introducing the new High Resolution Encoder (HR-E).
+
+
+Topic
+
+
+The HR-E is the newest member in the Badger Meter high resolution family of encoders. The HR-E utilizes the same light-emitting diode technology of the ADE®, but combines proven technology with a finer reading resolution.
+Attend the webinar to learn more about the encoder’s features, requirements and sales strategy. This webinar will be recorded and posted on the extranet for viewing at a later date.
+
+
+
+
+To register for the webinar:
+
+
+1. Click the registration link for your on your preferred time above.
+2. On the next page, Click &quot;Register&quot;.
+3. On the registration form, enter your information and then click &quot;Submit&quot;.
+
+Once your registration has been approved, you will receive a confirmation email message with instructions on how to join the event.
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have. Submit Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

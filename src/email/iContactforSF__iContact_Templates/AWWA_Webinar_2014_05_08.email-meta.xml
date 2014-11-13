@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>AWWA Webinar 2014-05-08</name>
+    <style>none</style>
+    <subject>Badger Meter | Thank You for Attending an AWWA Webinar!</subject>
+    <textOnly>Thank you for recently attending an AWWA webinar, sponsored by Badger Meter. We hope you found the information useful and informative.
+
+
+Included below are resources about Badger Meter products that might interest you. We encourage you to explore our diverse flow measurement portfolio for a product or system that fits your needs.
+
+
+Our water utility solutions are top-rated and industry-leading. We offer a comprehensive metering line, proven AMR/AMI technology and the powerful analytics tools that truly help in Making Water Visible® for thousands of water utilities.
+
+
+
+
+
+BEACON Advanced Metering Analytics (AMA) from Badger Meter brings a new level of utility-optimizing information to light. BEACON AMA combines the power of the intuitive BEACON AMA software suite with proven ORION® AMI technology to provide utility management with greater visibility and control.
+
+
+
+How it Works:
+
+
+
+
+Resources:
+
+BEACON AMA website
+BEACON AMA software suite
+ORION Cellular Endpoint
+
+
+
+AMI/AMR Hardware Solutions
+
+
+
+Fixed Network (AMI) Solutions
+
+ORION Cellular | Designed for maximum flexibility and rapid deployment, our two-way water endpoint reduces utility-owned infrastructure by utilizing existing cellular infrastructure available with BEACON AMA.
+ORION Fixed Network | This system collects meter readings and enhances operations via a two-way fixed network (AMI) system of gateways and endpoints.
+
+
+Mobile Read Data Collection
+
+ORION Migratable | This migratable two-way mobile (AMR) system can be easily upgraded to a two-way fixed network (AMI) system to grow with your needs.
+ORION Classic | Our industry-leading, one-way mobile (AMR) system utilizes bubble-up technology and is built for reliability and flexibility.
+
+
+
+
+Meters
+
+
+E-Series®
+Ultrasonic Meters
+Recordall®
+Disc Series Meters
+M-Series®
+Electromagnetic Flow Meters      Recordall®
+Compound Series Meters
+
+
+
+
+
+Click here to tell us more about your flow measurement needs, or to get in touch with the Badger Meter sales team!
+
+
+
+
+Water Utility Solutions
+
+
+
+Click to Download
+
+
+
+Contact Us
+
+800-876-3837
+
+www.badgermeter.com
+
+
+
+
+
+Badger Meter Overview
+
+
+
+
+
+
+
+
+
+As always, we welcome your input. Please feel free to contact Badger Meter Marketing with any comments or suggestions.</textOnly>
+    <type>custom</type>
+</EmailTemplate>

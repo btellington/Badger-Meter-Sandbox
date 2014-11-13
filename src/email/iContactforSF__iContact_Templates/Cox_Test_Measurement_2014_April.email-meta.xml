@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Cox Test &amp; Measurement 2014 April</name>
+    <style>none</style>
+    <subject>Exceptional Linearity in Flow Measurement | Flow Metrics You Can Count On</subject>
+    <textOnly>View Web Version
+
+
+When the integrity of your product relies on high performance test and measurement flow data, having extended performance in your flow meter is indispensable. Badger Meter offers Cox Precision turbine flow meter technology, which allows for flow measurements with unequaled precision, repeatability and rangeability. Beyond meter performance, the Cox EC80 flow processor offers maximum flexibility in electronic signal processing with minimal latency, multiple output options and complete compensation for temperature and pressure.
+Our selection of Cox Precision flow meters includes a variety of proven solutions from low-flow measurement to patented extended UVC range dual rotor meters that we know could help improve the flow performance specification on your test equipment.
+We look forward to exploring solutions with you to help your test and measurement systems deliver the highest level of precision when you depend on it the most.
+Sincerely,
+Tracy Lagona
+Director of Industrial Sales
+
+Test &amp; Measurement
+Solutions Brochure
+Click to Download
+Contact
+800-876-3837
+www.badgermeter.com
+
+
+Stay Connected
+
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>BEACON AMA Sales Process Training Webinar Reminder 10.8.14</name>
+    <style>none</style>
+    <subject>Reminder to Register! Webinar Invitation - BEACON AMA Sales Process Training</subject>
+    <textOnly>Reminder! Join us for a webinar: BEACON AMA Sales Process Training.
+
+
+When
+
+
+Monday, October 13, 2014 at 11:00 a.m. CDT Register
+
+OR
+
+Friday, October 17, 2014 at 2:30 p.m. CDT Register
+
+
+Presenters
+
+
+John Fillinger, Director of Utility Marketing
+
+Kristie Anderson, Product Marketing Manager
+
+
+To register for the webinar:
+
+
+1. Click the registration link above for the date and time you would like to attend.
+
+2. On the next page, Click &quot;Register&quot;.
+3. On the registration form, enter your information and then click &quot;Submit&quot;.
+
+Once your registration has been approved, you will receive a confirmation email message with instructions on how to join the event.
+
+
+**Please note: You will need to register for this event and attend the event on a desktop computer/laptop. The WebEx system will give you an incorrect time if you try to register on your smartphone.
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have. Submit Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Utility 2014-04-01</name>
+    <style>none</style>
+    <subject>Badger Meter Utility Marketing eNews April 1, 2014 – Confidential &amp; Proprietary</subject>
+    <textOnly>View Web Version
+
+
+Utility Edition | April 1, 2014
+
+Confidential &amp; Proprietary
+
+
+BEACON AMA Training Videos Available Online
+
+Videos from the regional BEACON AMA training in Las Vegas are now available online.
+
+
+This full-day training is broken up into six different topics:
+
+Part 1 – BEACON AMA Introduction/Value Proposition
+Part 2 – Technical Overview
+Part 3 – Selling and Software Strategy
+Part 4 – BEACON AMA Pricing
+Part 5 – BEACON AMA Software Suite Demonstration
+Part 6 – New Encoders/Encoder Strategy
+
+You can also access links to these videos on the Badger Meter extranet. To skip to different sections of each training, you can find chapter listings in the “description” section of each video on YouTube.
+
+
+Note: These training videos are confindential and proprietary,  and intended for internal use only.
+
+
+Please contact Dan Merritt if you have any questions.
+
+BEACON AMA Cell Coverage
+
+
+Questions have been raised about cellular coverage in certain areas with mobile phones and how that may impact a successful deployment of a BEACON AMA managed solution.
+
+
+You can expect better coverage with BEACON AMA than with mobile phones for a few key reasons:
+
+Cell phone coverage is provided by one cellular provider. BEACON AMA employs a cellular aggregator, which combines the coverage of many CDMA providers.
+BEACON AMA utilizes M2M (machine to machine) communication rather than voice communication. Similar to text messaging, M2M uses a network dedicated to non-voice communication and doesn&apos;t have to compete with consumer voice traffic when sending endpoint data.
+ORION® Fixed Network (SE) and ORION Cellular endpoints are always stationary. Mobile phone users may be moving between cell towers. Those transitions between towers increase the likelihood that a transmission may be lost.
+
+We’ve completed over 50 propagation studies for sites within the contiguous U.S. and the BEACON AMA managed solution has shown acceptable coverage in all
+of them.
+
+
+Please contact Kristie Anderson if you have any questions.
+
+
+
+BEACON AMA Q&amp;A
+
+
+Question: As a BEACON AMA managed solution is installed, when does invoicing for the monthly subscription fee begin?
+
+
+Answer: Billing of the subscription fee starts after one of these two events occurs:
+
+The endpoint is installed and activated.
+Six months pass from date of shipment.
+
+Note: Since the managed solution endpoint will automatically turn itself on and begin billing for usage after six months, our distributor and utility customers must balance their inventory versus installation requirements.
+
+
+Question: Is the ORION Fixed Network (SE) endpoint currently integrated into the BEACON AMA system?
+
+
+Answer: At the present time, ORION Fixed Network (SE) endpoints in BEACON AMA have two-way communication between BEACON AMA and the gateway, and one-way communication between the gateway and the endpoints.
+
+
+Please contact Kristie Anderson if you have any questions.
+
+
+Topics in this Issue
+
+
+BEACON AMA Training Videos
+
+BEACON AMA Cell Coverage
+
+BEACON AMA Q&amp;A
+
+E-Series Sales Samples
+
+Events
+
+Badger Meter Gear
+
+
+Events
+
+
+Live AWWA Webinar
+
+How is Technology Changing the Water Utility Industry?
+
+Presented by Badger Meter
+
+April 22, 2014
+12:00pm CST
+Register Now
+
+
+ACE14
+
+Booth #1911
+
+June 8-12, 2014
+
+Boston, MA
+
+Register Now
+
+
+
+Full List of Events
+
+Get Badger Meter Gear
+
+
+Conveniently shop online for a wide range of Badger Meter merchandise: shirts, hats, water bottles, pens, and more.
+
+Stay Connected
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

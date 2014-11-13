@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Utility 2014-05-01</name>
+    <style>none</style>
+    <subject>Badger Meter Utility Marketing eNews May 1, 2014 – Confidential &amp; Proprietary</subject>
+    <textOnly>View Web Version
+
+
+Utility Edition | May 1, 2014
+
+Confidential &amp; Proprietary
+
+
+Update: BEACON AMA Starter Kits – April Sales
+
+
+
+BEACON AMA Starter Kits are showing continued success in the field for customers interested in deploying their own managed solution. Eric Foley and Stiles Company both sold their fourth this month, and United Utilities sold its fifth. Congratulations to all who have already sold starter kits – keep up the good work!
+
+
+More information about BEACON AMA Starter Kits can be found on the BEACON AMA web page or the Badger Meter Extranet.
+
+
+
+
+Please contact Dan Merritt if you have any questions.
+
+
+
+BEACON AMA Propagation Studies
+
+
+Recently, we have seen a dramatic increase in the demand for BEACON AMA propagation studies and pricing requests. Fortunately, after completing a substantial number of studies, we have found the cellular coverage to be excellent or good at nearly every site considered. This has allowed us to streamline the BEACON AMA propagation study and pricing process. The standard lead-time for a propagation study and pricing request is now 3-5 business days.
+
+
+Please contact Kristie Anderson if you have any questions.
+
+
+
+Trade Show/Presentation and Abstract Now Available: How is Technology Changing the Water Utility Industry
+
+
+To help you secure a 2014 trade show or conference speaking engagement, we have developed a presentation abstract and bio form available on the Badger Meter extranet. We have also included the presentation which will help utilities understand the features and benefits of our new BEACON AMA managed solution and cellular technology offerings. The presentation is generic in nature and does not speak about our products by name, only in concept, so it can be used for educational presentations, if needed.
+
+Download the form from the Badger Meter extranet.
+The Powerpoint presentation can be found in the Badger Meter extranet.
+Video of presentation can also be found at (BEACON AMA portion starts at 27 min): AWWA.org.
+
+Please contact Morrice Blackwell if you have any questions.
+
+
+
+Release of ORION Fixed Network (SE) and Migratable (ME) Encoder Firmware x.14
+
+
+To make deployments easier, firmware modifications are being released for ORION Fixed Network and Migratable endpoints.
+
+
+Effective May 5, 2014, all ORION Fixed Network and Migratable encoder endpoints will ship with x.14 firmware. The x.14 firmware includes a new auto-sensing feature in which the endpoint will be able to determine what type of encoder it is connected to and use that information to automatically set the encoder type in the endpoint. With release of the x.14 firmware, all ORION Fixed Network and Migratable encoder endpoints will be engraved as ENC and the same endpoint may be connected to a Badger Meter HR-ELCD, HR-E (when available), ADE or high resolution E-Series Ultrasonic meter or approved competitive encoders. Refer to the ORION Fixed Network and Migratable Endpoints section of ORION Endpoint Installation Manual ORI-UM-00025-EN for more information regarding endpoint wiring and supported reading resolution.
+
+
+Contact your Customer Service Representative to order the no charge ORION SE/ME Endpoint Firmware Updater 1.2.1 kit, PN 64558-025, containing the updated software and user manual.
+
+
+Please contact Sheila Nally if you have questions.
+
+
+Topics in this Issue
+
+
+BEACON AMA Starter Kits
+
+BEACON Prop Studies
+
+Trade Show Presentation/Form
+
+ORION SE/ME Firmware
+
+Customer Service Unavailable
+
+Events
+
+Badger Meter Gear
+
+
+
+Customer Service Unavailable on Friday,
+May 9th
+
+
+On May 9th, Milwaukee customer service will be closed and unavailable for inquiries or orders due to necessary system upgrades. All Utility Product lines are affected by this change. Please plan accordingly. We apologize in advance for any inconvenience.
+
+
+Events
+
+
+ACE14
+
+Booth #1911
+
+June 8-12, 2014
+
+Boston, MA
+
+Register Now
+
+
+
+Full List of Events
+
+Get Badger Meter Gear
+
+
+Conveniently shop online for a wide range of Badger Meter merchandise: shirts, hats, water bottles, pens, and more.
+
+Stay Connected
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

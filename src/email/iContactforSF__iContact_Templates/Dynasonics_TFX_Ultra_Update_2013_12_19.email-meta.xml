@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Dynasonics TFX Ultra Update 2013-12-19</name>
+    <style>none</style>
+    <subject>Special Announcement – Update on Dynasonics TFX Ultra Platform</subject>
+    <textOnly>View Web Version
+
+
+Update on Dynasonics TFX Ultra Platform | December 19, 2013
+
+Confidential &amp; Proprietary
+
+
+Dear Dynasonics Representative:
+We are pleased to announce the new general safety AC line power and DC power Dynasonics TFX Ultra transmitters are released for shipment. When ordering the new transmitters, the certification approval option “N” is now available for all power source selections.
+In the meantime, the hazardous area transmitters with Ethernet communications or AC line power remain on hold. If you have any open orders that need to be converted from hazardous area approval to general safety or another alternative, please contact your Badger Meter representative to revise your orders.
+&gt; Download
+Summary Table of TFX Ultra Transmitters
+and Shipping Status
+The temporary price reduction on Dynasonics TFX Ultra transmitters with 24V AC power options, which was previously communicated on November 25, 2013, remains in effect for all orders received by January 16, 2014.
+We appreciate your business and regret the inconvenience that this product hold has caused. We will continue to provide regular updates.
+Sincerely,
+Cheryl Ades Anspach
+Marketing Manager
+
+
+
+
+
+Click to download the announcement in PDF format.
+
+Holiday Schedule
+
+
+Badger Meter will be closed on the following days for the holidays:
+
+
+Christmas - Dec. 24 &amp; 25
+
+New Year - Dec. 31 &amp; Jan. 1
+
+
+Have a safe and happy
+holiday season!
+
+Stay Connected
+
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

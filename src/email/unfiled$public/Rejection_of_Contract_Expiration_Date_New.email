@@ -1,0 +1,8 @@
+Dear  {!Rep__c.Iinitiator__c} 
+
+Thank you for the notification. Unfortunately your contract expiration date cannot be approved. Please follow the link below. 
+
+{!Rep__c.Link}
+
+Thanks 
+{!User.Name}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Flow Instrumentation 2014-04-10</name>
+    <style>none</style>
+    <subject>Flow Instrumentation You Can Rely On | Badger Meter</subject>
+    <textOnly>View Web Version
+
+
+Flow Instrumentation You Can Rely On
+
+
+
+
+Badger Meter Flow Instrumentation understands that companies cannot manage what they cannot measure. You can rely on us for application-specific solutions that are essential for optimizing product quality, controlling costs, and maintaining your safe operations and regulatory compliance.
+
+
+An industry leader in both mechanical and electronic flow metering technologies, we offer one of the broadest flow control and measurement portfolios in the industry. Simply put, Badger Meter provides technology to measure and control whatever moves through a pipe or pipeline – including water, air, steam, oil, other liquids and gases.
+
+
+A local sales representative will be in contact with you soon to discuss any application needs you may have.
+
+
+We look forward to exploring solutions with you to help advance your business.
+
+
+Sincerely,
+
+
+
+Tracy Lagona
+
+Director of Industrial Sales
+
+
+Product Overview Brochure
+
+
+
+Click to download
+
+
+Contact
+
+800-876-3837
+
+infocentral@badgermeter.com
+
+www.badgermeter.com
+
+
+Serving a variety of industries worldwide.</textOnly>
+    <type>custom</type>
+</EmailTemplate>

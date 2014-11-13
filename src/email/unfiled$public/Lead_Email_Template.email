@@ -1,0 +1,25 @@
+Hello,
+
+I wanted to send you the following lead information for a company interested in a Badger Meter product. To help you go after it, the details below provide everything we currently know about the opportunity. Please let me know if you have any questions.
+
+{!Lead.LeadSource}
+
+{!Lead.Name}
+{!Lead.Title}
+{!Lead.Company}
+{!Lead.Address}
+{!Lead.Phone}
+{!Lead.Email}
+
+
+{!Lead.Industry}
+{!Lead.Applications_of__c}   
+{!Lead.Badger_Meter_Business_Unit__c}
+{!Lead.Product__c}  
+
+Regards, 
+
+{!Lead.OwnerFullName}
+{!Lead.OwnerTitle}
+{!Lead.OwnerEmail}
+{!Lead.OwnerPhone}

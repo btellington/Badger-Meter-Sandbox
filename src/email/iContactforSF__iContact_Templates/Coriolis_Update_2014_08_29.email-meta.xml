@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Coriolis Update 2014-08-29</name>
+    <style>none</style>
+    <subject>Coriolis Flow Meters Now Available</subject>
+    <textOnly>Coriolis Update | August 29, 2014
+
+Confidential &amp; Proprietary
+
+
+Dear Coriolis Representative:
+We are pleased to announce the release of RCT1000 Coriolis mass flow meters with ½ to 3 inch connectors.
+The Coriolis web page is now live on www.badgermeter.com. The RCT Selection Tool has also been updated to include the latest specifications, so please download the latest version from the extranet in order to select the proper meter size for your customers’ applications.
+As previously announced, we are offering a “Plank Owner” Kick Start Incentive program with a 5% bonus based on the first year’s Coriolis sales. As “Plank Owners”, you are active members of our on-going development, enhancement and promotion of Coriolis meters to better serve our mutual customers. Download the incentive program details here.
+Please let us know when you encounter any significant quoting activity so we can better forecast production in these early stages. If you have any questions or suggestions, please contact your Badger Meter representative.
+Sincerely,
+Cheryl Ades Anspach
+Marketing Manager
+Download Announcement as a PDF
+
+
+
+Quick Links
+
+
+Web Page
+
+Brochure
+
+Data Sheet
+
+Application Data
+
+User Manual
+
+Quick Start Guide
+
+Price List
+
+RCT Selection Tool
+
+Sales Incentive Program
+
+
+
+
+
+
+As always, we welcome your input. Please contact us with any comments or suggestions you may have. Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

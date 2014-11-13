@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Dynasonics TFX Ultra Update 2014-03-21</name>
+    <style>none</style>
+    <subject>Update on Dynasonics TFX Ultra Platform</subject>
+    <textOnly>View Web Version
+
+
+Update on Dynasonics TFX Ultra Platform | March 21, 2014
+
+Confidential &amp; Proprietary
+
+
+Dear Dynasonics Representative:
+
+In an effort to expedite the release schedule for the TFX Ultra hazardous area transmitters, we have requested that the approval agency allow a phased approach to the approval process.  For U.S. and Canada, we received approval for use in hazardous areas of the remaining TFX Ultra transmitters, while the ATEX certification for Europe remains under review.
+
+In order to meet the demand for installations in the U.S. and Canada, we are releasing the remaining TFX Ultra hazardous area transmitters for sale in the U.S. and Canada with the following changes:
+
+Transmitters will be marked for Class I, Division 2 Groups C and D area in U.S. and Canada
+Transmitters will not be marked  with Ex and CE
+An insert will be included with the transmitter advising of the certification changes for applicable transmitters
+
+For any orders of transmitters that will ultimately be used in Europe or require the CE and ATEX approval, please contact your Badger Meter representative by the end of the business day on March 25th.  Otherwise, we will assume that these changes are satisfactory.
+
+No action is necessary if the modifications noted above are acceptable on existing orders.
+&gt; Download
+Summary Table of TFX Ultra Transmitters
+and Shipping Status
+
+We remain in close contact with the approval agency to finalize the ATEX certification.  We appreciate your business and regret the interruptions that this product hold has caused.
+
+Sincerely,
+Cheryl Ades Anspach
+Marketing Manager
+
+
+
+
+Click to download the announcement in PDF format.
+
+Stay Connected
+
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

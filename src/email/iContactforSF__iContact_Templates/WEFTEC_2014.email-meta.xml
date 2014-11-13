@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>WEFTEC 2014</name>
+    <style>none</style>
+    <subject>Thanks for visiting us at WEFTEC 2014 | Badger Meter</subject>
+    <textOnly>Thank you for visiting us at WEFTEC 2014!
+We look forward to talking with you more about how Badger Meter flow monitoring solutions can benefit your business.
+
+An innovator in flow measurement and control products, Badger Meter serves water utilities, municipalities and commercial and industrial customers worldwide. Measuring water, oil, chemicals, and other fluids, Badger Meter products are known for accuracy, long-lasting durability and for providing valuable and timely measurement data.
+
+A Badger Meter sales representative will be in contact with you soon to discuss any application needs you may have. If you need immediate support, please contact us at 800-876-3837 or infocentral@badgermeter.com.
+We&apos;re eager to explore solutions with you to help advance your business.
+
+Products
+
+
+The following highlighted products are ideal for flow measurement in water and/or wastewater applications.
+
+ModMAG M-Series Meters
+
+
+
+Dynasonics Portable
+Ultrasonic Meters
+
+
+
+Recordall Disc Meters
+
+
+
+
+
+BEACON Advanced
+Metering Analytics
+
+
+Contact Us
+800-876-3837
+www.badgermeter.com
+
+
+Here&apos;s Our Story
+
+Badger Meter Intro Video
+
+
+
+
+Flow Instrumentation Solutions Brochure
+
+
+
+
+Click to Download
+
+
+Water Utility
+
+Solutions Brochure
+
+
+
+
+Click to Download
+
+
+
+As always, we welcome your input. Please contact us with any comments or suggestions you may have. Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

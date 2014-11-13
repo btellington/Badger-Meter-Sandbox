@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Flow-Instrumentation-2014-04-17</name>
+    <style>none</style>
+    <subject>Webinar Invitation - Introducing Badger Meter Flow Instrumentation</subject>
+    <textOnly>View Web Version
+
+
+Unveiling of New Branding for Badger Meter Flow Instrumentation
+
+
+When
+
+Friday, April 25 at 10:30 a.m. CST
+
+
+Presenter
+
+Judson Luke, Integrated Marketing Services Manager, will be presenting a 20 minute, quick-hitting webinar presentation to explain the logic behind the launch of Badger Meter Flow Instrumentation.
+
+
+Topic
+
+We have some exciting news to share with you regarding a re-branding effort for the Badger Meter flow instrumentation (formerly &quot;Industrial&quot;) products.
+
+
+Highlights:
+
+Differentiates our brand from competition
+Enables new cross-selling opportunities
+Unifies our global product offering
+Refined global message
+
+The new Flow Instrumentation name reflects broad solutions for the global industrial and commercial markets, which help keep plant processes and precision-based operations efficient, profitable and safe. In recent years, our solution offering has expanded through product development and acquisitions. The re-branding will help differentiate Badger Meter products from competitive offerings. It also strengthens the cohesiveness among all Badger Meter flow instrumentation products, enabling more opportunities for cross-selling into new applications.
+
+
+
+
+To register for the webinar:
+
+
+1. Click on the button above or go to https://badgermeter-events.webex.com/badgermeter-events/onstage/g.php?d=660151293&amp;t=a
+2. Click &quot;Register&quot;.
+3. On the registration form, enter your information and then click &quot;Submit&quot;.
+
+Once we approve your registration, you will receive a confirmation email message with instructions on how to join the event.
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

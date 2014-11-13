@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Utility 2014-07-15</name>
+    <style>none</style>
+    <subject>BEACON AMA Starter Kit Update | BEACON AMA Q&amp;A | eStore Sale</subject>
+    <textOnly>View Web Version
+
+
+Utility Edition | July 15, 2014
+
+Confidential &amp; Proprietary
+
+
+BEACON AMA Starter Kits: July Update
+
+We are off to a great start for Q3, with ten BEACON AMA Starter Kit sales already since the last update. This brings our collective total to 82 Starter Kits sold!
+
+
+Momentum has continued from BEACON AMA demonstrations at ACE14, with 19 starter kits sold since the annual conference in Boston, MA. The table
+below shows starter kit sales so far in July, 2014. Keep
+up the great work!
+
+
+BEACON AMA Starter Kits:
+
+Month-to-Date Sales
+
+
+Please contact Cindy Kransler if you have any questions.
+
+
+
+
+BEACON AMA Q&amp;A
+
+
+Q: What is the BEACON AMA data conversion that is included on BEACON AMA quotes?
+
+
+A: Data conversion is a service offered by Badger Meter to help utilities pull historical reading data into the BEACON AMA software suite. The fee supports the creation of the custom tools Badger Meter needs in order to pull data from the customer’s existing databases. Additional fees may also apply from the utility’s billing software. Pulling in historical data is a good way to build up the database to support the comparison and analytic features of BEACON AMA and EyeOnWater consumer engagement tools. Data conversion is recommended for all utilities transitioning to BEACON AMA, so users can begin experiencing the power behind the software as soon as it is deployed.
+
+
+
+
+Q: What is the process for data conversion for utilities new to Badger Meter software and customers with legacy Badger Meter software?
+
+
+A: For utilities new to Badger Meter software, the data conversion process involves working with the billing vendor to pull three years of historical reading data into BEACON AMA. This requires an interface or transfer process to bring over the data. This can be done as part of the standard BEACON AMA file format or as a separate file format agreed to by both Badger Meter and the billing vendor.
+
+
+For customers with legacy Badger Meter ReadCenter Analytics software, a conversion process will be added to the software development roadmap that will allow hourly reading data to be transferred from ReadCenter to BEACON AMA. For customers with a mobile reading system, the reading data stored inside the Badger Meter legacy software matches the information in the billing software. Therefore, data can come from either software platform to drive BEACON AMA.
+
+
+
+
+Q: What is the new agreement users must agree to in order to log in to BEACON AMA?
+
+
+A: The click-through agreements, in which all utility users agree to the terms of our General Agreement and Terms of Use, will be put in place next week. Once the change has been implemented, the software will walk all users through the process of accepting the General Agreement and Terms of Use Agreement. Users must agree to both of these agreements before they can log in to the software. Utility users will not have to click on the Agreement or TOU again until those documents are modified.
+
+
+Electronic copies of the General Agreement or Terms of Use may be downloaded from the BEACON AMA demo site in the bottom right navigation section.
+
+
+Please contact Kristie Anderson if you have any questions.
+
+
+
+
+
+Documentation Updates
+
+
+Several technical reference documents have been updated. The new document versions include
+up-to-date specifications and photos and have been reformatted for improved usability.
+
+ORION Cellular Endpoint
+
+​Product Data Sheet
+
+English
+Spanish
+
+
+
+BadgerTouch
+
+​Pit Module Product Data Sheet
+Pit Module User Manual
+
+
+Topics in this Issue
+
+
+BEACON AMA Starter Kits
+
+BEACON AMA Q&amp;A
+
+Documentation Updates
+
+Events
+
+SALE! Badger Meter Gear
+
+eNews Archive
+
+
+Events
+
+WEFTEC
+
+Sep. 27 - Oct. 1, 2014
+
+New Orleans, LA
+
+Register
+
+
+Full List of Events
+
+
+Get Badger Meter Gear
+
+
+Through July 31, 2014, get 50% off* any Men&apos;s or Women&apos;s Badger Meter polo shirt! SHOP NOW
+
+
+*While supplies last
+
+
+eNews Archive
+
+
+
+July 1, 2014
+
+June 17, 2014
+
+June 3, 2014
+
+May 15, 2014
+
+
+Stay Connected
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

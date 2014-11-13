@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Dynasonics TFX Ultra Update 2014-07-18</name>
+    <style>none</style>
+    <subject>Dynasonics TFX Ultra Released for Shipment | July 18, 2014</subject>
+    <textOnly>View Web Version
+
+
+Update on Dynasonics TFX Ultra Platform | July 18, 2014
+
+Confidential &amp; Proprietary
+
+
+Dear Dynasonics Representative:
+
+
+Previously, we communicated a temporary hold for all TFX Ultra meters with hazardous certification. We have received approval to resume shipments of meters with the U.S. and Canada hazardous certification.
+
+
+
+Power Option    Approvals    Advanced Comm. Options    Shipping Status
+C (24V AC)    N (General Safety)    Any    Shipping
+A (AC Line Power)    N (General Safety)    Any    Shipping
+D (DC Powered)    N (General Safety)    Any    Shipping
+A (AC Line Power)    F (Hazardous Area) U.S. and Canada certifications    Any    Now Shipping
+D (DC Powered)    F (Hazardous Area) U.S. and Canada certifications    Any    Now Shipping
+
+
+We appreciate your business and regret the interruptions that this product hold has caused. If you have additional questions, please let us know and we will provide as much information as possible.
+
+
+Regards,
+
+
+Cheryl Ades Anspach
+
+Marketing Manager
+
+
+
+
+
+As always, we welcome your input. Please contact us with any comments or suggestions you may have. Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

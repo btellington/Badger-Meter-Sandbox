@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Dynasonics TFX Ultra Update 2014-01-20</name>
+    <style>none</style>
+    <subject>Special Announcement – Update on Dynasonics TFX Ultra Platform</subject>
+    <textOnly>View Web Version
+
+
+Update on Dynasonics TFX Ultra Platform | January 22, 2014
+
+Confidential &amp; Proprietary
+
+
+Dear Dynasonics Representative:
+For installations requiring hazardous area certification, the hazardous area TFX Ultra transmitters with AC line power or Ethernet communications remain on hold. These transmitters are expected to be released in late February, pending certification approval.
+As previously communicated, transmitters with general safety certification are available including the new AC line powered and DC powered options. If you have any open orders that need to be converted from hazardous area approval to general safety or another alternative, please contact your Badger Meter representative to revise your orders.
+&gt; Download
+Summary Table of TFX Ultra Transmitters
+and Shipping Status
+
+We will continue to provide updates as required and genuinely apologize for the inconvenience this has caused.
+
+Sincerely,
+Cheryl Ades Anspach
+Marketing Manager
+
+
+
+
+
+Click to download the announcement in PDF format.
+
+Stay Connected
+
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

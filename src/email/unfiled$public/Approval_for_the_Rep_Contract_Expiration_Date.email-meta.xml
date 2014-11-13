@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Approval for the Rep Contract Expiration Date</name>
+    <style>none</style>
+    <subject>Approving the Contract expiration Date</subject>
+    <textOnly>Dear {!Rep__c.OwnerFullName}
+
+Thank you for the notification. 
+
+I am happy to approve the same. Please follow the link below.
+{!Rep__c.Link}
+
+
+Thanks
+{!User.Name}</textOnly>
+    <type>custom</type>
+</EmailTemplate>

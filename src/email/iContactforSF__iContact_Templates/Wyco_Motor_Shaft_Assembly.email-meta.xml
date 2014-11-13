@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Wyco Motor Shaft Assembly</name>
+    <style>none</style>
+    <subject>Special Announcement - Wyco Sure Speed and 994 Motor Shaft Assembly</subject>
+    <textOnly>View Web Version
+
+
+Wyco Sure Speed and 994 Motor Shaft Assembly | January 6, 2014
+
+Confidential &amp; Proprietary
+
+
+Wyco Sure Speed and 994 Motor Shaft Assembly
+
+
+Wyco has received Sure Speed and 994 motor returns exhibiting fractured motor shell ribs adjacent to the threaded connector due to improper field assembly.
+The letter at the link below explains the details of this issue and how this problem can be avoided. Please feel free to share the letter with your customers.
+&gt; Download - Wyco Motor Shaft Assembly Letter
+
+
+For addition help please contact Wyco customer service at
+262-639-6770.
+
+
+
+Stay Connected
+
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

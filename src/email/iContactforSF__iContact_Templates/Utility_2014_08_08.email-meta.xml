@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Utility 2014-08-08</name>
+    <style>none</style>
+    <subject>New ModMAG M-Series Utility Lead Time Policy and Stock Item List</subject>
+    <textOnly>View Web Version
+
+
+Utility Edition | August 8, 2014
+
+Confidential &amp; Proprietary
+
+
+New ModMAG M-Series® Lead Time Policy and Stock Item List
+Badger Meter is excited to announce and introduce a new mag meter lead time policy and a mag meter stock item list. Together, the new policy and stock item list will provide sales with a list of meters that are most often purchased, allow sales to reliably communicate a proper lead time to their customers and will limit the amount of status update calls/rush order requests between customer service and the customer.
+Details can be found on the extranet pricing page:
+
+Download - Lead Time Policy
+Download - Stock Item List
+
+Effective today, all new orders entered into the system will follow the new lead time policy.
+Along with the stock item list, we will also be publishing an on-hand mag meter inventory report that will outline the non-stock items in inventory. The purpose of this on hand inventory report is to notify sales of the slow moving or special built mag meters that are currently in stock that would qualify for a faster delivery lead time.
+
+Download - Mag Meter On-Hand Inventory Report
+
+Build-to-Order: Special Capabilities Extending Beyond Stocked Meter Offering
+Our new stocked meter plan offers shorter lead times for a wide breadth of ModMAG M-Series meters, which meet the requirements of many common applications. However, in some unique or especially challenging applications, there may be a need for a meter to be engineered outside the realm of our stocked meter offering. This includes larger meter sizes, extended lay lengths, special liner material, and any other option not included in the scope of our stocked meter specifications.
+
+New Look, Same Meter, Expanded Opportunity
+In order to reduce lead times and help grow the global footprint of the Badger Meter mag meter product family, we are standardizing on a common look and feel for the branding of this metering line across all markets. The new Badger Meter ModMAG name reflects solutions for the utility and commercial and industrial markets across the globe. The common brand will help reinforce that these products are all part of the Badger Meter family of mag meter products.
+The most visible aspect of our mag meter re-branding is the incorporation of a red ModMAG logo and red &quot;flowing B&quot; Badger Meter logo. The new product logos are designed to be cohesive and complementary to the products currently sold into utility and commercial and industrial markets around the world by Badger Meter Europe. While the M-Series name is not going away entirely, you will start seeing the new ModMAG brand on our mag meter web pages, at trade shows, in advertisements, and in marketing literature over the next several months.
+
+
+ModMAG Quick Links
+
+M2000
+
+General purpose detection and field verification testing
+
+
+M3000
+
+Hazardous Class 1, Div 2
+
+
+
+M4000
+
+Hazardous Class 1, Div 1
+
+
+
+M5000
+
+General purpose detection, battery operated
+
+
+
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

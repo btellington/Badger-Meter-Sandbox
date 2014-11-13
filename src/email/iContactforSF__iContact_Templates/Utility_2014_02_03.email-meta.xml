@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Utility 2014-02-03</name>
+    <style>none</style>
+    <subject>Badger Meter Utility Marketing eNews February 3, 2014 – Confidential &amp; Proprietary</subject>
+    <textOnly>View Web Version
+
+
+Utility Edition | February 3, 2014
+
+Confidential &amp; Proprietary
+
+
+BEACON Advanced Metering Analytics (AMA) Update
+
+Last week at DistribuTECH, we officially released BEACON AMA to media and utility customers with great success!
+
+
+BEACON AMA gives you a powerful solution for any water utility customer looking for the benefits of fixed network and analytics and also wanting the convenience of a
+managed solution.
+
+
+To support sales efforts, BEACON AMA now has a fully integrated marketing campaign, including print and online advertising, pulbic relations and trade show and conference promotional tools available on the Badger Meter website
+and extranet.
+
+
+For more information and to access all the tools to help you sell BEACON AMA:
+
+Visit www.badgermeter.com/BEACONAMA
+Download helpful sales tools, including presentations, documents, diagrams, videos, and tradeshow graphics on the Badger Meter extranet
+
+Please contact Dan Merritt if you have any questions.
+
+
+NEW! Introducing the 1 inch E-Series®  Ultrasonic Engineered Polymer Meter
+
+
+Badger Meter is pleased to announce the 1 inch engineered polymer E-Series Ultrasonic meters are now available for sale. The newest member of the E-Series electronic metering line was designed for utility potable water applications. The engineered polymer models provide your customers with a cost-effective option for electronic and, specifically, ultrasonic metering. The engineered polymer line includes the following sizes: 5/8 x 3/4”, 3/4”, 3/4” and 1”, the newest addition.
+
+
+All of our E-Series Ultrasonic meters are regulation-compliant and are available in a wide range of sizing options in either engineered polymer or stainless steel. Your choice in a water metering solution counts – choose from the many Badger Meter offerings to find a solution that meets your specific needs.
+
+
+Features
+
+Meter Size - 1 in.
+Lay Length - 10.75 in.
+Weight - 2.3 lbs
+Flow Rate - 0.4…55 gpm
+Extended Low Flow Rate - 0.25 gpm
+Pressure Loss - 1.8 psi at 25 gpm
+
+Agency Approvals
+
+AWWA – Designed to meet and exceed applicable portions of ANSI/AWWA standard C700. NOTE: No current AWWA standard specifically addresses ultrasonic meters for residential applications.
+NSF – Complies with the lead-free provisions of the Safe Drinking Water Act, certified to NSF/ANSI Standards 61 and 372 and the NSF-61 mark on the housing.
+
+High Resolution Output Protocol - Available for all Engineered Polymer Meters
+
+
+Providing more than just a reading, the high resolution protocol provides visibility to status indicators including: meter functioning correctly, meter alarm (includes empty pipe, low temperature, other meter or sensor issues), reverse flow, suspected leak, 30-day no usage, and battery end-of-life. The HR E-Series provides connectivity to Badger Meter ORION® Cellular, Fixed Network (SE), Migratable (ME), and Classic (CE) endpoints as well as Itron 100W Erts using the industry standard ASCII protocol. Approved endpoints, including ORION Cellular, ORION Fixed Network (SE) and ORION Migratable (ME), transmit the status indicators to the BEACON AMA software.
+
+
+Endpoint Reading Resolutions
+
+
+The E-Series Ultrasonic meter high resolution output is nine digits. Reading resolutions sent to the reading software rely on the encoder/endpoint connection. Readings reported from the endpoints are the left-most significant digits of the encoder reading. In addition to reading resolution, the status indicator reporting capabilities of the encoder are dependent on both the endpoint technology and the version of reading management software.
+
+
+Customer Education
+
+
+Direct and Distributor sales may share hardware/software requirements with existing ORION, GALAXY® and ITRON customers when discussing the new high resolution output, and most importantly, at time of first order.
+
+
+Prior to placing a first-time order of high resolution E-Series Ultrasonic meters, consult Pivotal customer equipment records to make sure that existing ORION, GALAXY or ITRON customers have the required versions of hardware/software.
+
+
+Lead Time
+
+
+Standard E-Series Ultrasonic meter lead times apply and will be based on demand.
+
+
+Pricing
+
+
+The Utility Products Price list has been updated to include pricing for the new 1” engineered polymer ultrasonic meter. The E-Series Ultrasonic engineered polymer meter has been priced to provide utilities with a cost effective metering option for utilities looking to deploy electronic meters.
+
+
+Warranty
+
+
+Identical to the Badger Meter stainless steel ultrasonic meters, engineered polymer meters have a twenty (20) years and six (6) months materials and workmanship warranty. The electronics, battery, transducer, and register are warranted for twenty (20) years and six (6) months; prorated after shipment from Badger Meter.
+
+
+Documentation
+
+
+Updated E-Series Ultrasonic meter documentation can be found on the Badger Meter website and extranet.
+
+Badger Meter Website
+Badger Meter Extranet
+
+Please contact Brooke Lange if you have any questions.
+
+
+Trade Show/Presentation Abstract Now Available
+
+To hlep you secure a 2014 trade show or conference speaking engagement, we have a presentation abstract and bio form available on the Badger Meter extranet. We have also included the presentation which will help utilities understand the features and benefits of our new BEACON AMA managed solution and cellular technology offerings. The presentation is generic in nature and does not speak about our products by name, only in concept, so it can be used for educational presentations if needed.
+
+Download the form from the Badger Meter extranet.
+
+Please contact Morrice Blackwell if you have any questions.
+
+
+New Literature Order Form
+
+
+The new, more user-friendly online Literature Order Form is ready for use. You can now easily search for the documents and brochures you need to order by category, make your selections, enter your shipping information, and confirm your request–all right online.
+
+
+You can access the Literature Order Form on the extranet.
+
+Order Literature
+
+Please contact Badger Meter Marketing if you have any questions.
+
+
+Note: People using an IE browser should place badgermeter.com in their trusted sites list to prevent unneeded pop-up messages and alerts.
+
+Topics in this Issue
+
+
+BEACON AMA
+
+NEW 1 inch E-Series
+
+Presentation Abstract
+
+Literature Order Form
+
+Events
+
+Badger Meter Gear
+
+
+Events
+
+
+ACE14
+
+Booth 1911
+
+June 8-12, 2014
+
+Boston, MA
+
+Register Now
+
+
+
+Full List of Events
+
+Get Badger Meter Gear
+
+
+Conveniently shop online for a wide range of Badger Meter merchandise: shirts, hats, water bottles, pens, and more.
+
+Stay Connected
+
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

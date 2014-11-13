@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Utility 2014-05-08</name>
+    <style>none</style>
+    <subject>Reminder - Customer Service Unavailable on May 9th</subject>
+    <textOnly>Customer Service Unavailable on May 9th  | May 8, 2014
+
+Confidential &amp; Proprietary
+
+
+
+Customer Service Unavailable on Friday,
+May 9th
+
+
+As previously communicated in our May 1st eNews, we&apos;d like to remind you that on Friday, May 9th, Milwaukee Customer Service will be closed and unavailable for inquiries or orders due to necessary system upgrades. All Utility Product lines are affected by this change. Please plan accordingly. We apologize in advance for any inconvenience.
+
+
+
+
+Topics in this Issue
+
+
+Customer Service Unavailable
+
+Events
+
+Badger Meter Gear
+
+
+Events
+
+
+ACE14
+
+Booth #1911
+
+June 8-12, 2014
+
+Boston, MA
+
+Register Now
+
+
+
+Full List of Events
+
+Get Badger Meter Gear
+
+
+Conveniently shop online for a wide range of Badger Meter merchandise: shirts, hats, water bottles, pens, and more.
+
+Stay Connected
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

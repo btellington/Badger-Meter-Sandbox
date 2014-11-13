@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>World of Concrete 2014 Post-Show</name>
+    <style>none</style>
+    <subject>Best results for concrete consolidation. | Thanks for visiting us at World of Concrete</subject>
+    <textOnly>View Web Version
+
+
+Thank you for visiting the Wyco booth at the
+World of Concrete!
+We look forward to talking with you more about how you can achieve the best results for concrete consolidation with Wyco tools.
+Wyco is a leading manufacturer of concrete consolidation equipment featuring the patented Square Head technology and the Sure Speed constant speed electric vibrator. Say goodbye to surface patching and finish jobs faster with Wyco.
+A Wyco sales representative will be in contact with you soon to discuss any application needs you may have. If you need immediate support, please contact us at 800-233-9926 or wycosales@wycotool.com.
+We look forward to exploring solutions with you to improve your concrete consolidation process and achieve a superior finish.
+Sincerely,
+Tracy Lagona
+Director of Industrial Sales
+
+
+
+Explore Wyco
+Solutions
+
+Click to download brochure
+
+
+
+
+
+Contact
+
+800-233-9926
+
+wycosales@wycotool.com
+
+www.wycotool.com</textOnly>
+    <type>custom</type>
+</EmailTemplate>

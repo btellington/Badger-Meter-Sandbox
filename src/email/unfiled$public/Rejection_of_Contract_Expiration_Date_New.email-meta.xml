@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Rejection of Contract Expiration Date_New</name>
+    <style>none</style>
+    <subject>Rejection of the Contract Expiration Date</subject>
+    <type>text</type>
+</EmailTemplate>

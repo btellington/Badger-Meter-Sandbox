@@ -1,0 +1,1746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AdvancedSetup</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <enableFeeds>true</enableFeeds>
+    <fields>
+        <fullName>Active_In__c</fullName>
+        <externalId>false</externalId>
+        <label>Active/Inactive</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Actual_Response__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( Number_Sent__c , 0, Number_Sent__c , NumberOfResponses / Number_Sent__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Actual Response (%)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>CampaignMemberRecordTypeId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Campaign__c</fullName>
+        <externalId>false</externalId>
+        <label>Campaign Goal</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Solution/Brand Awareness</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Solution Launch</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Thought Leadership / Education</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Corporate Awareness</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sales Program</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Language__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The target language the campaign will be using.</inlineHelpText>
+        <label>Language</label>
+        <picklist>
+            <picklistValues>
+                <fullName>English</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Spanish</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>French</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>German</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dutch</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Russian</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Japanese</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Italian</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Portuguese</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Norwegian</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Swedish</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Simple Chinese</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>MultiselectPicklist</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Media_Source_File__c</fullName>
+        <externalId>false</externalId>
+        <label>Media Source File</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Number_Sent__c</fullName>
+        <externalId>false</externalId>
+        <label>Number Sent</label>
+        <summaryFilterItems>
+            <field>CampaignMember.Status</field>
+            <operation>equals</operation>
+            <value>Sent</value>
+        </summaryFilterItems>
+        <summaryForeignKey>CampaignMember.CampaignId</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParentId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Partner_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Partner Contact</label>
+        <referenceTo>Rep__c</referenceTo>
+        <relationshipLabel>Campaigns</relationshipLabel>
+        <relationshipName>Campaigns</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Publication__c</fullName>
+        <externalId>false</externalId>
+        <label>Publication</label>
+        <picklist>
+            <picklistValues>
+                <fullName>AGA Journal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ASHRAE Journal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Flow Control</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NRWA Magazine</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Power Grid International</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Processing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Superintendent</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Utility Automation T&amp;D</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Utility Products</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Water &amp; Wastes Digest</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Water Efficiency</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>WaterWorld</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Water Online</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AWWA Journal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>The NEWS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Chemical Engineering</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GlobalSpec</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Turf</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pharmeceutical</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Greening Our Blue Borders</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Business Journal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LA Times</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Control</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HPAC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Building Operating Management  (BOM)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>US Infra</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Valve Magazine</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Industrial Water World</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Irrigation and Green Industry</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Chemical Engineering Progress</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Water Environment &amp; Technology (WE&amp;T)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Municipal Sewer and Water</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Control Magazine eLit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Industrial Water and Wasted Digest</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Flow Control E-Blasts</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TPO (Treatment Plant Operator)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>WSO (Water Systems Operator)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Green Industry Magazine</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pharmaceutical Processing Magazine</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Automotive Test and Measurement Expo</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Consulting Specifying Engineer</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Industrial Equipment News</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>QR Code</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pumps &amp; Systems</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Oil Gas &amp; Mining Contractor</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Planned</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Advertisement - Digital</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Advertisement - Print</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Banner Ads</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Partners</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Promotion / Spiff</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Referral Program</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Seminar / Conference / Show</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Telemarketing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Web Site</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>iContactforSF__Average_Bounce_Rate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Average bounce rate for messages in &quot;Released&quot; status for this campaign.</description>
+        <externalId>false</externalId>
+        <formula>if (iContactforSF__Message_Statistic_Count__c  &gt; 0, iContactforSF__Total_Bounce_Rate__c / iContactforSF__Message_Statistic_Count__c, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Average bounce rate for messages in &quot;Released&quot; status for this campaign.</inlineHelpText>
+        <label>Average Bounce Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>iContactforSF__Average_Click_Rate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Average click rate for messages in &quot;Released&quot; status for this campaign.</description>
+        <externalId>false</externalId>
+        <formula>if (iContactforSF__Message_Statistic_Count__c  &gt; 0, iContactforSF__Total_Click_Rate__c / iContactforSF__Message_Statistic_Count__c, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Average click rate for messages in &quot;Released&quot; status for this campaign.</inlineHelpText>
+        <label>Average Click Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>iContactforSF__Average_Open_Rate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Average open rate for messages in &quot;Released&quot; status for this campaign.</description>
+        <externalId>false</externalId>
+        <formula>if (iContactforSF__Message_Statistic_Count__c  &gt; 0, iContactforSF__Total_Open_Rate__c / iContactforSF__Message_Statistic_Count__c, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Average open rate for messages in &quot;Released&quot; status for this campaign.</inlineHelpText>
+        <label>Average Open Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>iContactforSF__Average_Unsubscribe_Rate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Average unsubscribe rate for messages in &quot;Released&quot; status for this campaign.</description>
+        <externalId>false</externalId>
+        <formula>if (iContactforSF__Message_Statistic_Count__c  &gt; 0, iContactforSF__Total_Unsubscribe_Rate__c / iContactforSF__Message_Statistic_Count__c, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Average unsubscribe rate for messages in &quot;Released&quot; status for this campaign.</inlineHelpText>
+        <label>Average Unsubscribe Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>iContactforSF__Bounce_Rate_Warning_Threshold_1__c</fullName>
+        <defaultValue>0.01</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The first warning threshold for bounce rate, where green becomes yellow on the dashboard gauge.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The first warning threshold for bounce rate, where green becomes yellow on the dashboard gauge.</inlineHelpText>
+        <label>Bounce Rate Caution %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>iContactforSF__Bounce_Rate_Warning_Threshold_2__c</fullName>
+        <defaultValue>0.03</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The second warning threshold for bounce rate, where yellow becomes red on the dashboard gauge.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The second warning threshold for bounce rate, where yellow becomes red on the dashboard gauge.</inlineHelpText>
+        <label>Bounce Rate Warning %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>iContactforSF__Click_Rate_Success_Threshold_1__c</fullName>
+        <defaultValue>0.01</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The first success threshold for click rate, where red becomes yellow on the dashboard gauge.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The first success threshold for click rate, where red becomes yellow on the dashboard gauge.</inlineHelpText>
+        <label>Click Rate Caution %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>iContactforSF__Click_Rate_Success_Threshold_2__c</fullName>
+        <defaultValue>0.08</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The second success threshold for click rate, where yellow becomes green on the dashboard gauge.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The second success threshold for click rate, where yellow becomes green on the dashboard gauge.</inlineHelpText>
+        <label>Click Rate Success %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>iContactforSF__Last_Update_Statistics_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date/time of the last Update on the Campaign record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date/time of the last Update on the Campaign record.</inlineHelpText>
+        <label>Last Update Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>iContactforSF__Message_Statistic_Count__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Total number of messages in &quot;Released&quot; status, which are used for the rate averages for the campaign.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Total number of messages in &quot;Released&quot; status, which are used for the rate averages for the campaign.</inlineHelpText>
+        <label>Message Statistic Count</label>
+        <summaryFilterItems>
+            <field>iContactforSF__iContact_Sent_Message__c.iContactforSF__Status__c</field>
+            <operation>equals</operation>
+            <value>Released</value>
+        </summaryFilterItems>
+        <summaryForeignKey>iContactforSF__iContact_Sent_Message__c.iContactforSF__Campaign__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>iContactforSF__Open_Rate_Success_Threshold_1__c</fullName>
+        <defaultValue>0.05</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The first success threshold for open rate, where red becomes yellow on the dashboard gauge.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The first success threshold for open rate, where red becomes yellow on the dashboard gauge.</inlineHelpText>
+        <label>Open Rate Caution %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>iContactforSF__Open_Rate_Success_Threshold_2__c</fullName>
+        <defaultValue>0.10</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The second success threshold for open rate, where yellow becomes green on the dashboard gauge.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The second success threshold for open rate, where yellow becomes green on the dashboard gauge.</inlineHelpText>
+        <label>Open Rate Success %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>iContactforSF__Targeted_Join_Date1__c</fullName>
+        <defaultValue>Today()</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Targeted Join Date1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>iContactforSF__Targeted_Join_Date2__c</fullName>
+        <defaultValue>today() + 1</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Targeted Join Date2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>iContactforSF__Total_Bounce_Rate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Total bounce rate for messages in &quot;Released&quot; status for this campaign (used to calculate average bounce rate).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Total bounce rate for messages in &quot;Released&quot; status for this campaign (used to calculate average bounce rate).</inlineHelpText>
+        <label>Total Bounce Rate</label>
+        <summarizedField>iContactforSF__iContact_Sent_Message__c.iContactforSF__Bounce_Rate__c</summarizedField>
+        <summaryFilterItems>
+            <field>iContactforSF__iContact_Sent_Message__c.iContactforSF__Status__c</field>
+            <operation>equals</operation>
+            <value>Released</value>
+        </summaryFilterItems>
+        <summaryForeignKey>iContactforSF__iContact_Sent_Message__c.iContactforSF__Campaign__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>iContactforSF__Total_Click_Rate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Total click rate for messages in &quot;Released&quot; status for this campaign (used to calculate average click rate).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Total click rate for messages in &quot;Released&quot; status for this campaign (used to calculate average click rate).</inlineHelpText>
+        <label>Total Click Rate</label>
+        <summarizedField>iContactforSF__iContact_Sent_Message__c.iContactforSF__Click_Rate__c</summarizedField>
+        <summaryFilterItems>
+            <field>iContactforSF__iContact_Sent_Message__c.iContactforSF__Status__c</field>
+            <operation>equals</operation>
+            <value>Released</value>
+        </summaryFilterItems>
+        <summaryForeignKey>iContactforSF__iContact_Sent_Message__c.iContactforSF__Campaign__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>iContactforSF__Total_Open_Rate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Total open rate for messages in &quot;Released&quot; status for this campaign (used to calculate average open rate).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Total open rate for messages in &quot;Released&quot; status for this campaign (used to calculate average open rate).</inlineHelpText>
+        <label>Total Open Rate</label>
+        <summarizedField>iContactforSF__iContact_Sent_Message__c.iContactforSF__Open_Rate__c</summarizedField>
+        <summaryFilterItems>
+            <field>iContactforSF__iContact_Sent_Message__c.iContactforSF__Status__c</field>
+            <operation>equals</operation>
+            <value>Released</value>
+        </summaryFilterItems>
+        <summaryForeignKey>iContactforSF__iContact_Sent_Message__c.iContactforSF__Campaign__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>iContactforSF__Total_Unsubscribe_Rate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Total unsubscribe rate for messages in &quot;Released&quot; status for this campaign (used to calculate average unsubscribe rate).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Total unsubscribe rate for messages in &quot;Released&quot; status for this campaign (used to calculate average unsubscribe rate).</inlineHelpText>
+        <label>Total Unsubscribe Rate</label>
+        <summarizedField>iContactforSF__iContact_Sent_Message__c.iContactforSF__Unsubscribe_Rate__c</summarizedField>
+        <summaryFilterItems>
+            <field>iContactforSF__iContact_Sent_Message__c.iContactforSF__Status__c</field>
+            <operation>equals</operation>
+            <value>Released</value>
+        </summaryFilterItems>
+        <summaryForeignKey>iContactforSF__iContact_Sent_Message__c.iContactforSF__Campaign__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>iContactforSF__Unsubscribe_Rate_Warning_Threshold_1__c</fullName>
+        <defaultValue>0.001</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The first warning threshold for unsubscribe rate, where green becomes yellow on the dashboard gauge.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The first success threshold for unsubscribe rate, where green becomes yellow on the dashboard gauge.</inlineHelpText>
+        <label>Unsubscribe Rate Caution %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>iContactforSF__Unsubscribe_Rate_Warning_Threshold_2__c</fullName>
+        <defaultValue>0.01</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The second warning threshold for unsubscribe rate, where yellow becomes red on the dashboard gauge.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The second warning threshold for unsubscribe rate, where yellow becomes red on the dashboard gauge.</inlineHelpText>
+        <label>Unsubscribe Rate Warning %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Percent</type>
+    </fields>
+    <listViews>
+        <fullName>All_Campaigns</fullName>
+        <columns>CAMPAIGN.NAME</columns>
+        <columns>PARENT_NAME</columns>
+        <columns>CAMPAIGN.START_DATE</columns>
+        <columns>CAMPAIGN.END_DATE</columns>
+        <columns>CAMPAIGN.BUDGETED_COST</columns>
+        <columns>CAMPAIGN.ACTUAL_COST</columns>
+        <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+        <columns>CAMPAIGN.STATUS</columns>
+        <columns>CAMPAIGN.NUM_LEADS</columns>
+        <columns>AMOUNT_ALL</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Campaigns</label>
+    </listViews>
+    <listViews>
+        <fullName>MyActiveCampaigns</fullName>
+        <columns>CAMPAIGN.NAME</columns>
+        <columns>CAMPAIGN.START_DATE</columns>
+        <columns>CAMPAIGN.END_DATE</columns>
+        <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+        <columns>CAMPAIGN.STATUS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CAMPAIGN.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>My Active Campaigns</label>
+    </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypes>
+        <fullName>Standard_Salesforce_Campaign</fullName>
+        <active>true</active>
+        <label>Standard Salesforce Campaign</label>
+        <picklistValues>
+            <picklist>Active_In__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Campaign__c</picklist>
+            <values>
+                <fullName>Corporate Awareness</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution Launch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution%2FBrand Awareness</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Thought Leadership %2F Education</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Language__c</picklist>
+            <values>
+                <fullName>Dutch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>English</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>French</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>German</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Italian</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Japanese</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Norwegian</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Portuguese</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Russian</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Simple Chinese</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spanish</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Swedish</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Publication__c</picklist>
+            <values>
+                <fullName>AGA Journal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ASHRAE Journal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AWWA Journal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automotive Test and Measurement Expo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Building Operating Management  %28BOM%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Journal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chemical Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chemical Engineering Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consulting Specifying Engineer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Control</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Control Magazine eLit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flow Control</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flow Control E-Blasts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GlobalSpec</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Industry Magazine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greening Our Blue Borders</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HPAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Equipment News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Water World</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Water and Wasted Digest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Irrigation and Green Industry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LA Times</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Municipal Sewer and Water</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NRWA Magazine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oil Gas %26 Mining Contractor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pharmaceutical Processing Magazine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pharmeceutical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Power Grid International</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pumps %26 Systems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QR Code</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Superintendent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPO %28Treatment Plant Operator%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The NEWS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Turf</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Infra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Utility Automation T%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Utility Products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valve Magazine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WSO %28Water Systems Operator%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Water %26 Wastes Digest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Water Efficiency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Water Environment %26 Technology %28WE%26T%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Water Online</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WaterWorld</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Planned</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Advertisement - Digital</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Advertisement - Print</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Banner Ads</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partners</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Promotion %2F Spiff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referral Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminar %2F Conference %2F Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telemarketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web Site</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>iContact_Email_Campaign</fullName>
+        <active>true</active>
+        <label>iContact Email Campaign</label>
+        <picklistValues>
+            <picklist>Active_In__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Campaign__c</picklist>
+            <values>
+                <fullName>Corporate Awareness</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution Launch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution%2FBrand Awareness</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Thought Leadership %2F Education</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Language__c</picklist>
+            <values>
+                <fullName>Dutch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>English</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>French</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>German</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Italian</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Japanese</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Norwegian</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Portuguese</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Russian</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Simple Chinese</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spanish</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Swedish</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Publication__c</picklist>
+            <values>
+                <fullName>AGA Journal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ASHRAE Journal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AWWA Journal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automotive Test and Measurement Expo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Building Operating Management  %28BOM%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Journal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chemical Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chemical Engineering Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consulting Specifying Engineer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Control</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Control Magazine eLit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flow Control</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flow Control E-Blasts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GlobalSpec</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Industry Magazine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greening Our Blue Borders</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HPAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Equipment News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Water World</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Water and Wasted Digest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Irrigation and Green Industry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LA Times</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Municipal Sewer and Water</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NRWA Magazine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oil Gas %26 Mining Contractor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pharmaceutical Processing Magazine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pharmeceutical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Power Grid International</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pumps %26 Systems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QR Code</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Superintendent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPO %28Treatment Plant Operator%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The NEWS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Turf</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Infra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Utility Automation T%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Utility Products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valve Magazine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WSO %28Water Systems Operator%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Water %26 Wastes Digest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Water Efficiency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Water Environment %26 Technology %28WE%26T%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Water Online</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WaterWorld</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Planned</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Advertisement - Digital</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Advertisement - Print</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Banner Ads</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partners</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Promotion %2F Spiff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referral Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminar %2F Conference %2F Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telemarketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web Site</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>CAMPAIGN.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CAMPAIGN.STATUS</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CAMPAIGN.START_DATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CAMPAIGN.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>PARENT_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CAMPAIGN.CAMPAIGN_TYPE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CAMPAIGN.STATUS</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CAMPAIGN.ACTIVE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CORE.USERS.ALIAS</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CAMPAIGN.NAME</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <webLinks>
+        <fullName>ViewAllCampaignMembers</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>500</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>View All Campaign Members</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/camp/rptcmpgncalldown.jsp?scope=1&amp;scopeid={!Campaign_Name}</url>
+        <width>500</width>
+    </webLinks>
+    <webLinks>
+        <fullName>ViewCampaignInfluenceReport</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>500</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>View Campaign Influence Report</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/00O?rt=117&amp;break0=CAN&amp;scope=1&amp;scopeid_lkid={!Campaign.Id}&amp;scopeid={!Campaign_Name}&amp;c=CAN&amp;c=MR&amp;c=PCS&amp;c=CFN&amp;c=RN&amp;c=ON&amp;c=OA&amp;c=OS&amp;c=OCD&amp;c=AN&amp;s=OA&amp;duel0=CAN%2CMR%2CCFN%2CRN%2CAN%2CON%2CPCS%2COS%2COCD%2COA&amp;details=yes&amp;format=t</url>
+        <width>500</width>
+    </webLinks>
+    <webLinks>
+        <fullName>iContactforSF__Bounce_Rate_All_Messages</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Bounce Rate All Messages</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/00OA0000001dn3Q?pv0={!Campaign.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>iContactforSF__Click_Rate_for_All_Messages</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Click Rate for All Messages</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/00OA0000001dn3R?pv0={!Campaign.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>iContactforSF__Complaint_Rate_for_All_Messages</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Complaint Rate for All Messages</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/00OA0000001dn3S?pv0={!Campaign.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>iContactforSF__Open_Rate_for_All_Messages</fullName>
+        <availability>online</availability>
+        <description>Open Rate for all iContact Sent Messages in this Campaign</description>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Open Rate for All Messages</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/00OA0000001dn3T?pv0={!Campaign.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>iContactforSF__Send_iContact_Message</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>iContact Send</masterLabel>
+        <openType>sidebar</openType>
+        <page>iContactforSF__CampaignSend</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>iContactforSF__Targeted_Send</fullName>
+        <availability>online</availability>
+        <description>Executes the &quot;Targeted Send&quot; wizard before sending the user to the SendMessage page.</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Targeted Send</masterLabel>
+        <openType>sidebar</openType>
+        <page>iContactforSF__CampaignTargetSend</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>iContactforSF__Unsubscribe_Rate_for_All_Messages</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Unsubscribe Rate for All Messages</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/00OA0000001dn3V?pv0={!Campaign.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>iContactforSF__Update_Statistics</fullName>
+        <availability>online</availability>
+        <description>Updates statistics for all iContact Sent Message records.</description>
+        <displayType>button</displayType>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>false</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>300</height>
+        <isResizable>false</isResizable>
+        <linkType>page</linkType>
+        <masterLabel>Update Statistics</masterLabel>
+        <openType>newWindow</openType>
+        <page>iContactforSF__CampaignUpdate</page>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <width>600</width>
+    </webLinks>
+    <webLinks>
+        <fullName>iContactforSF__ViewCampaignInfluenceReport</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>500</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>View Campaign Influence Report</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/00O?rt=117&amp;break0=CAN&amp;scope=1&amp;scopeid_lkid={!Campaign.Id}&amp;scopeid={!Campaign.Name}&amp;c=CAN&amp;c=MR&amp;c=PCS&amp;c=CFN&amp;c=RN&amp;c=ON&amp;c=OA&amp;c=OS&amp;c=OCD&amp;c=AN&amp;s=OA&amp;duel0=CAN%2CMR%2CCFN%2CRN%2CAN%2CON%2CPCS%2COS%2COCD%2COA&amp;details=yes&amp;format=t</url>
+        <width>500</width>
+    </webLinks>
+    <webLinks>
+        <fullName>iContactforSF__iContact_Help</fullName>
+        <availability>online</availability>
+        <description>Link to context-sensitive iContact help content.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>iContact Help</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://salesforce.icontact.com/node/241</url>
+    </webLinks>
+</CustomObject>

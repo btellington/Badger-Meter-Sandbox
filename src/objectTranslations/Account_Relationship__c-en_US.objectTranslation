@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Account Relationship</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Account Relationships</value>
+    </caseValues>
+    <fields>
+        <label><!-- Partner 1 --></label>
+        <name>Partner_1__c</name>
+        <relationshipLabel><!-- Account Relationships --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Partner 1 (formula) --></label>
+        <name>Partner_1_formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner 2 --></label>
+        <name>Partner_2__c</name>
+        <relationshipLabel><!-- Account Relationships --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Partner 2(formula) --></label>
+        <name>Partner_2_formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reverse Role --></label>
+        <name>Reverse_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role --></label>
+        <name>Role__c</name>
+        <picklistValues>
+            <masterLabel>is a customer of</masterLabel>
+            <translation><!-- is a customer of --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>is a distributor for</masterLabel>
+            <translation><!-- is a distributor for --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>is a ship to for</masterLabel>
+            <translation><!-- is a ship to for --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Account Relationship Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

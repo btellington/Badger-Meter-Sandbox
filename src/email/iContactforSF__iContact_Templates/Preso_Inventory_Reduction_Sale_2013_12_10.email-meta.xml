@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Preso Inventory Reduction Sale 2013-12-10</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Preso Inventory Reduction Sale 2013-12-10</name>
+    <style>none</style>
+    <subject>Badger Meter Special Announcement - Preso B+ and C+ Valves Inventory Reduction Sale</subject>
+    <textOnly>View Web Version
+
+
+Preso B+/C+ Announcement | December 10, 2013
+
+Confidential &amp; Proprietary
+
+
+Preso B+ and C+ Valves Inventory Reduction Sale
+
+
+As we announced in the August 15 eNews, the B+/C+ valve product line for Preso is obsolete. The remaining B+/C+ valves and parts are being offered at highly discounted prices. The final date to purchase from our remaining inventory will be Friday, December 13. After that date, we will not be offering this product.
+
+
+For last purchase opportunities, please contact
+Preso at 800-632-6770.
+
+
+
+Holiday Schedule
+
+
+Badger Meter will be closed on the following days for the holidays:
+
+
+Christmas - Dec. 24 &amp; 25
+
+New Year - Dec. 31 &amp; Jan. 1
+
+
+Have a safe and happy
+holiday season!
+
+Stay Connected
+
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

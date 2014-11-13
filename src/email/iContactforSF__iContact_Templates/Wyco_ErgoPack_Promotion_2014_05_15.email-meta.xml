@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Wyco ErgoPack Promotion 2014-05-15</name>
+    <style>none</style>
+    <subject>Best results for concrete consolidation. | Wyco ErgoPack Scoring Update</subject>
+    <textOnly>Wyco ErgoPack Scoring Update
+
+
+Lots of action this past week in the ErgoPack Spring Stocking Promotion. As a group, representives went from 48 total points up to 55! Great momentum as we enter the final month of the competition.
+
+
+A reminder of the Promotion rules can be found here.
+
+
+Tim Elenbaas remains the &quot;top dog&quot; after another week, but it is too close for comfort, with a number of challengers threatening. Scott Dennis of Lew Hudson tallied another point, putting him at double-digits with 10 points overall. Neal Noga of MJ Miller now has sole ownership of third place, with a big three-pointer this week. Greg Klein of Larrabee more than doubled his previous score, now at 5 points total.
+
+
+
+
+
+
+Reminder: Wyco ErgoPack Survey
+
+
+Just a friendly reminder that we are looking for feedback regarding marketing ideas to reach your Wyco distributors. Thank you to those who have already taken the survey. We appreciate your help in creating a successful ErgoPack campaign!
+
+
+
+
+
+Explore Wyco
+
+Solutions
+
+Click to download brochure
+
+
+
+
+Contact
+
+800-233-9926
+
+wycosales@wycotool.com
+
+www.wycotool.com
+
+
+Additional Resources:
+
+
+ErgoPack Web Page
+
+ErgoPack Demo Video
+
+Spring Stocking Promotion</textOnly>
+    <type>custom</type>
+</EmailTemplate>

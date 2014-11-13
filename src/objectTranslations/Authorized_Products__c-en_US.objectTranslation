@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Authorized Product</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Authorized Products</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Authorized Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Commission Rate --></label>
+        <name>Commission_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exception/Notes --></label>
+        <name>Exception_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Line --></label>
+        <name>Product_Line__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

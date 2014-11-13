@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>TEST</name>
+    <style>none</style>
+    <subject>TEST</subject>
+    <textOnly>View Web Version
+
+
+Utility Edition | June 3, 2014
+
+Confidential &amp; Proprietary
+
+
+BEACON AMA Starter Kits - May 2014
+
+Congratulations to all who sold BEACON AMA Starter Kits during the month of May. Since the last update, Carolina Meter &amp; Supply and Innovative Metering Solutions each sold one, bringing the May total up to eight! Overall, an impressive 47 BEACON AMA Starter Kits have been sold since the program began. Let’s make June our biggest month yet!
+
+
+
+
+As a reminder, each BEACON AMA Starter Kit includes ten ORION® Cellular endpoints, four months of the BEACON AMA software suite and training to use the managed solution. Be sure to continue promoting these Starter Kits as a quick, easy and inexpensive way for a competitive account to try
+out a state-of-the-art Badger Meter solution.
+
+Please contact Cindy Kransler if you have any questions.
+
+
+
+NEW! Introducing the HR-E 8-Dial Encoder
+
+
+Badger Meter is pleased to announce the HR-E 8-dial mechanical encoders are now released for sale.
+
+
+As a direct replacement for the ADE, the HR-E utilizes the same light-emitting diode technology, with higher reading resolution.
+
+
+The HR-E communicates using the industry standard ASCII protocol and provides connectivity to Badger Meter ORION Cellular, Fixed Network (SE), Migratable (ME), and Classic (CE) endpoints as well as GALAXY® and BadgerTouch®. The HR-E is designed for use with all Badger Meter Recordall® Disc Series, Turbo Series, Compound Series, Combo Series, and Fire Series meters and assemblies.
+
+
+HR-E Features
+
+High resolution, eight-digit output for AMR/AMI applications.
+Frictionless encoding.
+Industry standard ASCII communication.
+Glass and metal enclosure with field proven adhesive sealing technology for pit applications.
+Calibrated flow finder.
+Touch compatible.
+
+Endpoint Reading Resolutions &amp; Requirements
+
+
+For AMR/AMI applications, the HR-E encoder output is eight-digits. Though the encoder output is eight-digits, the reading resolution sent to the reading software is dependent on the endpoint to which the encoder is connected. For BadgerTouch applications, the option of four, five, six, seven, or eight-digit resolution is available. Readings reported from the endpoints are the left-most significant digits of the encoder reading.
+
+
+The HR-E is fully supported by ORION Cellular, Fixed Network, Migratable and Classic endpoints as well as GALAXY and BadgerTouch. ORION Fixed Network and Migratable endpoints must have firmware versions 1.14 or 2.14 to fully support the HR-E. Earlier versions of firmware support the reading but report the encoder as “ADE”.
+
+
+Connectivity with Itron 100W+ and Aclara endpoints is pending. Announcements will be made upon formal approval from Itron and Aclara.
+
+
+Software Version Requirements
+
+BEACON AMA Software Suite.
+
+Reading Management Software.
+ReadCenter Analytics and ReadCenter Analytics Mobile: Version 2.12.7.6 – reports the encoder as “ADE”.
+ReadCenter Data: Version 2.12.7.6 – reports the encoder as “ADE”.
+Future release of software to report the encoder as “HR-E”.
+
+Mobile Reading Systems.
+
+HR-E support provided in ORS Version 2.5.0 or later and ORION Endpoint Utility for Mobile Version 2.5.2 or later.
+
+Handheld Reading Systems.
+
+HR-E Support provided in ORION Field Application Version 2.5.0 or later and ORION Endpoint Utility Version 2.5.2 or later.
+HR-E support provided in GALAXY IR Programmer Version 3.1.2.7822 – reports the encoder as “ADE”.
+
+CONNECT® Reading Management Software
+
+HR encoders (including HR E-Series) not supported.
+
+
+Direct and Distributor sales should share hardware/software requirements with existing ORION and GALAXY customers when discussing the high resolution output, and most importantly, at time of first order.
+
+
+Prior to placing a first-time order of the HR-E, consult Pivotal customer equipment records to make sure that existing ORION and GALAXY customers have the required versions of hardware/software.
+
+
+Lead Time
+
+
+Standard three to four week lead times apply for the HR-E for all orders up to 500 pieces. Please contact Badger Meter customer service to get lead times for larger quantities (greater than 500 pieces).
+
+
+Pricing
+
+
+The Utility Products Price list has been updated to include pricing for the new HR-E encoder. Utility Products Price List has been uploaded to the extranet.
+
+
+Documentation
+
+
+Documentation can be found on the Badger Meter website and extranet.
+
+
+ADE to HR Transition &amp; Online Meeting
+
+
+The HR-E is a direct replacement for the ADE. A formal transition plan will be announced in Q3 to help drive a smooth transition to the latest encoder technology.
+
+
+Online meetings to help further your understanding of the HR-E encoder, its features and the sales strategies to convert ADE customers to one of our two high resolution encoder solutions have been scheduled for Friday, June 6th at 10:00 a.m. and 2:00 p.m. central time. These online sessions are mandatory and critical to a successful release and understanding of the high resolution encoder offerings. A WebEx email invitation to Sales and Distribution has already been sent for these trainings.
+
+
+Whether your customer chooses the 8-dial HR-E or the 9-digit LCD encoder, the high resolution encoded output provides leak detection and other critical information to help utilities and end consumers manage water. When used in conjunction with the BEACON AMA managed solution and metering technologies from Badger Meter, high resolution encoders (HR-E and HR-E LCD) provide utilities with a comprehensive solution for managing their water more efficiently and effectively.
+
+
+Please contact Jan Boyer if you have any questions.
+
+
+
+NEW! Introducing the 1-1/2” and 2” Hex Style
+E-Series Ultrasonic Meter
+
+
+Badger Meter is pleased to announce that 1-1/2” and 2” hex style E-Series Ultrasonic meters are now available for sale. The newest member of the E-Series Ultrasonic metering line was designed for utility potable, reclaimed and fire service applications.
+
+
+The hex style meters provide your customers with complete and cost-effective options for electronic and, specifically, ultrasonic metering. The full E-Series product line offering now includes the following meters: 5/8”, 5/8x3/4&quot;, 3/4” and 1” engineered polymer meters, the 5 /8”, 5/8 x 3/4”, 3/4” and 1” stainless steel meters; and the 1-/2” and 2” (elliptical and hex) stainless steel  meters.
+
+
+Features
+
+
+Agency Approvals
+
+AWWA – Designed to meet and exceed applicable portions of ANSI/AWWA standard C700. NOTE: No current AWWA standard specifically addresses ultrasonic meters for residential applications.
+NSF – Complies with lead-free provisions of the Safe Drinking Water Act, certified to NSF/ANSI Standards 61 and 372 and the NSF-61 mark on the housing.
+UL – The meters are listed by Underwriters Laboratories as meeting UL Subject 327B, Inferential Type Residential Water Flow Meters. The meters must have red lids signifying fire service application and display the Underwriters Laboratories (UL) logo or emblem.
+
+High Resolution Output Protocol
+
+
+Providing more than just a reading, the high resolution protocol provides visibility to status indicators including: meter functioning correctly, meter alarm (includes empty pipe, low temperature, other meter or sensor issues), reverse flow, suspected leak, 30-day no usage, and battery end-of-life. The HR E-Series provides connectivity to Badger Meter ORION® and GALAXY® AMR/AMI endpoints as well as Itron 100W/100W+ ERTs endpoints using the industry standard ASCII protocol. Approved endpoints, including ORION Fixed Network (SE) and ORION Migratable (ME), then transmit the status indicators to ReadCenter® Analytics and Analytics Mobile Software.
+
+
+Endpoint Reading Resolutions
+
+
+The E-Series high resolution output is nine digits. Reading resolutions sent to the reading software rely on the encoder/endpoint connection. Readings reported from the endpoints are the left-most significant digits of the encoder reading. In addition to reading resolution, the status indicator reporting capabilities of the encoder are dependent on both the endpoint technology and the version of reading management software.
+
+
+Customer Education
+
+
+Direct and Distributor sales may share hardware/software requirements with existing ORION, GALAXY and Itron customers when discussing the new high resolution output and, most importantly, at time of first order.
+
+
+Prior to placing a first-time order of high resolution E-Series meters, consult Pivotal customer equipment records to make sure that existing ORION, GALAXY or Itron customers have the required versions of hardware/software.
+
+
+Lead Time
+
+
+Standard E-Series lead times apply and will be based on demand.
+
+
+Pricing
+
+
+The E-Series 1-1/2” and 2” pricing in the Utility Products Price list reflects both elliptical and hex meter configurations. Hex connections and pricing have also been added.
+
+
+Supporting Documentation
+
+
+Documentation can be found on the Badger Meter website and extranet.
+
+
+Please contact Brooke Lange if you have any questions.
+
+
+
+BEACON AMA Q&amp;A
+
+
+Question: Regarding the installation of endpoints in a managed solution, is there anything in particular I should keep in mind?
+
+
+Answer:
+
+Mounting the ORION Cellular endpoint through a non-metal pit lid is required for maximum propagation. Not only can metal pit lids negatively affect propagation, but metal pit lids can reduce battery life by increasing the number of times an endpoint needs to broadcast in order to get reading data through to BEACON AMA.
+
+
+For easy replacement in year 11, it’s best to install the cellular endpoint outdoors using a plug and play connector. The Nicor connector offers compatibility with competitive encoders and can be used to keep the endpoint separate from the encoder for trouble shooting and warranty purposes.
+
+
+For indoor and basement meter applications, the endpoint should be mounted on the outside of the building above expected snow cover or at a height similar to other utility devices mounted on the outside of the house.
+
+
+Question: How important is the Data Conversion aspect of BEACON AMA?
+
+
+Answer: When bringing the utility’s historical data into BEACON AMA, Data Conversion provides a baseline against which comparisons can be made as soon as the managed solution is deployed. This historical information will help the utility, and especially customers, who may not be used to considering water consumption patterns, determining normal usage and/or identifing levels and conditions to which they choose to be alerted. It is recommended that each utility incorporate Data Conversion into their BEACON AMA deployment to maximize system analysis.
+
+
+Please contact Kristie Anderson if you have any questions.
+
+
+Updated Life Cycle Cost Model Tool
+
+
+The 2014 Life Cycle Cost Model example has been updated and can be found on the Badger Meter extranet under Sales --&gt; Sales Meetings. Be sure to utilize this resource when promoting BEACON AMA to support the managed solution cost model when compared to other utility solution cost structures.
+
+
+Please contact Sheila Nally if you have any questions.
+
+Topics in this Issue
+
+
+BEACON AMA Starter Kits
+
+New! HR-E Encoders
+
+New! 1-1/2 &amp; 2 in. E-Series
+
+BEACON AMA Q&amp;A
+
+Updated Life Cycle Cost Model
+
+Events
+
+Badger Meter Gear
+
+
+Events
+
+
+ACE14
+
+Booth #1911
+
+June 8-12, 2014
+
+Boston, MA
+
+Register Now
+
+
+
+
+
+Eligible customers who collect stamps for attending at least three (3) Badger Meter events at ACE14 could win an Apple iPad!
+
+
+Click here for a complete list of events during ACE14.
+
+Get Badger Meter Gear
+
+
+Conveniently shop online for a wide range of Badger Meter merchandise: shirts, hats, water bottles, pens, and more.
+
+Stay Connected
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

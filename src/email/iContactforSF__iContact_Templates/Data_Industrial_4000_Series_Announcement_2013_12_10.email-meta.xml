@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Data Industrial 4000 Series Announcement 2013-12-10</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Data Industrial 4000 Series Announcement 2013-12-10</name>
+    <style>none</style>
+    <subject>Badger Meter Special Announcement – Data Industrial 4000 Series Impeller Meters on Back Order</subject>
+    <textOnly>View Web Version
+
+
+Data Industrial 4000 Series Announcement | December 10, 2013
+
+Confidential &amp; Proprietary
+
+
+Data Industrial 4000 Series Impeller Meters
+on Back Order
+The Data Industrial 4000 Series Impeller Meters are currently on back order. We anticipate resuming shipment of 4000 Series meters on January 20, 2014. We apologize for the inconvenience. This situation was caused by a supplier issue and corrective action has been taken.
+To mitigate this situation from occurring on future orders, we have established an alternate supplier for the affected subcomponent.
+Please download the letter found at the link below and share with your customers as necessary:
+
+&gt; Data Industrial 4000 Series Meters on Back Order
+If you have questions, please contact your local Badger Meter sales representative.
+
+Holiday Schedule
+
+
+Badger Meter will be closed on the following days for the holidays:
+
+
+Christmas - Dec. 24 &amp; 25
+
+New Year - Dec. 31 &amp; Jan. 1
+
+
+Have a safe and happy
+holiday season!
+
+Stay Connected
+
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

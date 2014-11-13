@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Sales Policies &amp; Discount Schedules 2013-12-23</name>
+    <style>none</style>
+    <subject>Special Announcement – 2014 Sales Policies / Discount Schedules</subject>
+    <textOnly>View Web Version
+
+
+Updated Sales Policies / Discount Schedules | December 23, 2013
+
+Confidential &amp; Proprietary
+
+
+Dear Representative,
+
+
+In 2014, we are updating our pricing approach across many of our products to make it easier for you to do business with Badger Meter.  In our 2012 customer satisfaction survey, you let us know that for both of us to be successful and to grow sales, it is important for us to provide sales aids and processes that enable you to become more self-sufficient and for our product deliveries to adhere to our published product lead times.
+
+
+As part of the new pricing policy, we are consolidating many pricing commission structures.
+
+We have created a “Parts” pricing structure for replacement components, regardless of product line.  Items excluded from replacement components include retrofit/repair convenience kits and add-on accessories.
+We have created an electronic “Accessory” pricing structure for flow computers, batch controllers, monitors and data acquisition hardware to position accessories to be used across flow meter lines.
+Warranty policies, general sales information and returned goods policies have been unified across our product lines.
+
+In addition, as introduced in a recent eNews, effective January 6, 2014, we will have new discount structures. List pricing levels have been updated as required to coincide with the new discount schedules.  The new discount schedules apply only to the new price lists that are clearly labeled with the new discount schedule(s).  In cases where parts or accessory pricing applies to products within a price list, it is clearly noted whether discount schedule A, P, S1, or S2 applies.  Price books effective 1/6/2014 and later have been updated as required to coincide with the new discount schedules.
+
+
+Finally, to help you become more efficient and avoid time-consuming negotiations, list prices have been set to market-level. Not only will this help reduce your upfront time when booking business, it also will help Badger Meter streamline and expedite order entry and processing.
+
+
+As always, if you have any questions, concerns or input, please contact your Badger Meter sales representative.
+
+
+Sincerely,
+
+Badger Meter Marketing
+
+
+
+
+Sales policies and discount schedules are available for download on the extranet depending on sales authorization for individual product lines.
+
+Holiday Schedule
+
+
+Badger Meter will be closed on the following days for the holidays:
+
+
+Christmas - Dec. 24 &amp; 25
+
+New Year - Dec. 31 &amp; Jan. 1
+
+
+Have a safe and happy
+holiday season!
+
+Stay Connected
+
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

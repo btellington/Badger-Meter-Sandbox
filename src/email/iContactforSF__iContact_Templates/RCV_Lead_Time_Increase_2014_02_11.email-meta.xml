@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>RCV Lead Time Increase 2014-02-11</name>
+    <style>none</style>
+    <subject>Special Announcement – Temporary Increase in RCV Valve Lead Times – Confidential &amp; Proprietary</subject>
+    <textOnly>View Web Version
+
+
+Temporary Lead Time Increase for RCV Valves | February 12, 2014
+
+Confidential &amp; Proprietary
+
+
+Temporary Lead Time Increase for
+Research Control® Valves
+Standing by commitments to our customers is of the highest priority for Badger Meter. Due to an increase in valve orders, we are temporarily increasing lead times for standard and special orders for Research Control® Valves.
+If there are critical time frames for specific orders, please contact our sales department. We will do our best to offer the Hot Shot delivery service according to our current stated policy found in the RCV Price List, but we ask for your cooperation in using this expediting process for the highest priority orders.
+If you have any questions, please contact your sales representative or customer service.
+Sincerely,
+Brian Kettner
+Marketing Manager
+RCV-Research Control Valves and Preso
+
+
+
+Click to download the announcement in PDF format.
+
+Stay Connected
+
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

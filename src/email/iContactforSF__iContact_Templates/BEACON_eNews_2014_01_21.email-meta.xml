@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>BEACON eNews 2014-01-21</name>
+    <style>none</style>
+    <subject>Introducing BEACON Advanced Metering Analytics (AMA)</subject>
+    <textOnly>View Web Version
+
+
+BEACON AMA Edition | January 21, 2014
+
+Confidential &amp; Proprietary
+
+
+Release of BEACON Advanced Metering Analytics Managed Solution Widens Badger Meter
+Leadership Position
+
+
+We are proud to introduce our new end-to-end managed solution for water utility management, BEACON Advanced Metering Analytics (AMA). BEACON AMA combines the intuitive BEACON AMA software suite with proven ORION® Advanced Metering Infrastructure (AMI) technology, using fixed and cellular networks to give utilities greater control, more information and enhanced customer service. Built-in infrastructure management services and supplied endpoint upgrades eliminate maintenance and technology concerns. Consumer engagement tools help enhance customer service, increase customer satisfaction and reduce costs.
+
+
+With the release of BEACON AMA, Badger Meter also
+
+becomes the first major water meter company to
+
+release a cost-effective cellular based solution for
+
+system-wide deployment.
+
+
+BEACON AMA gives you a powerful solution for any water
+
+utility customer looking for the benefits of fixed network
+
+and analytics, but also wanting the convenience of a
+
+managed solution.
+
+
+To support sales efforts, starting in February, BEACON AMA will be promoted with a fully integrated campaign, including print and online advertising, public relations, and trade show and conference promotion.
+
+
+For more information and to access the tools that will help you sell BEACON AMA:
+
+
+-  Visit www.badgermeter.com/BEACONAMA
+
+-  View the introductory and case study videos in the sidebar
+
+- Download helpful sales tools on the Badger Meter Extranet
+
+
+Please contact Dan Merritt with any questions.
+
+
+Topics in this Issue
+
+
+Introducing: BEACON AMA
+
+BEACON AMA Videos
+
+Events
+
+BEACON AMA Videos
+
+
+Introducing: BEACON AMA
+
+
+
+BEACON AMA Customer Testimonials
+
+
+
+Case Study: Sunnyvale, CA
+
+
+
+Case Study: San Jose, CA
+
+
+
+Events
+
+
+DistribuTECH
+
+Booth 1555
+
+January 28-30
+
+San Antonio, TX
+
+Register Now
+
+
+Full List of Events
+
+Stay Connected
+
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Utility 2014-07-01</name>
+    <style>none</style>
+    <subject>Badger Meter Utility Marketing eNews July 1, 2014 – Confidential &amp; Proprietary</subject>
+    <textOnly>View Web Version
+
+
+Utility Edition | July 1, 2014
+
+Confidential &amp; Proprietary
+
+
+Highland Village, TX Secures First
+Full BEACON AMA Deployment
+
+
+
+We are pleased to announce our first full system deployment of the BEACON managed solution, powered by ORION®, at the city of Highland Village, TX.
+
+
+This complete managed solution with Highland Village includes over 5,400 ORION Cellular endpoints, and the powerful, hosted BEACON AMA software suite. After their vendor stopped supporting their originally deployed AMI system, the flexible and versatile ORION Cellular endpoints were a perfect solution to quickly rebound Highland Village to a state-of-the-art utility management solution.
+
+
+Great work by everyone involved in this historical moment in Badger Meter history, including Atlas Utility Supply, Toby Sledge and Alan Breese. Congratulations to the city of Highland Village for deploying the first Clearly Better managed utility solution!
+
+
+Please contact Dan Merritt if you have any questions.
+
+
+
+
+Badger Meter Partners with Watertech of America
+
+
+Prior to the 2014 Water Summit, Badger Meter and Watertech of America announced a new partnership in which flow instrumentation products from Badger Meter will be sold to Watertech customers. This includes sales opportunities in the energy, food and beverage, health care, and Commercial/Industrial sectors.
+
+
+As both Wisconsin-based companies are members of The Water Council, this partnership is yet another success story of the significant collaboration opportunities for non-competing water organizations in the Milwaukee area.
+
+
+Rich Meeusen, chief executive officer of Badger Meter and co-chair of The Water Council, stated &quot;This channel partner agreement is significant not only because Watertech of America will be recommending Badger Meter products, but also because it demonstrates the power of Water Council companies working together and supporting one another.&quot;
+
+
+Read the full press release on the Badger Meter website.
+
+
+
+
+Water Summit 2014 Recap
+
+
+This year, the annual Water Summit,
+
+previously held in international locations, came to Milwaukee, WI. This collection of water leaders, entrepreneurs, educators, and innovators serves as an annual celebration of the importance of water innovation, and encourages continued collaboration from the industry&apos;s most influential members. What better place to celebrate water in 2014 than Milwaukee: worldwide water hub, home to The Water Council and the newly-opened Global Water Center.
+
+
+A number of high-profile keynote speakers, including Wisconsin Governor, Scott Walker, and Badger Meter chief executive officer, Rich Meeusen, addressed Water Summit attendees about diverse topics within the water industry.
+
+
+
+
+Water Summit 2014 Coverage:
+
+Water Council to add stewardship role
+The BREW Batch II winners announced
+
+Please contact Amie Williams if you have any questions.
+
+
+
+
+BEACON AMA Starter Kits: Mid-Year Update
+
+As Q2 comes to a close, and just five months since the release of BEACON Advanced Metering Analytics (AMA), 72 total Starter Kits have been sold!
+
+
+At ACE14, the Badger Meter booth was consistently busy with customers attending BEACON AMA demonstrations. In just over one week following ACE14, we have already sold nine starter kits! Great job to everyone who helped perform a demonstration.
+
+
+BEACON AMA Starter Kits: YTD Totals
+
+
+Please contact Cindy Kransler if you have any questions.
+
+
+
+
+BEACON AMA Q&amp;A
+
+
+Question:  What training should accompany a
+BEACON AMA system purchase?
+
+
+Answer:  A full BEACON AMA deployment (as opposed to the starter kit), should include one full day of training for the software, and one additional day of training for each different reading device. This is true for both the Managed Solution (with managed solution endpoints) and for Hosted-only systems (in which no managed solution endpoints are purchased). As always, training is priced per the published price list.
+
+
+Question:  Can I order endpoints to supplement a BEACON AMA Starter Kit?
+
+
+Answer:  Yes. Additional cellular endpoints may be added to the Starter Kit for $79.50/endpoint, net. This includes the first four (4) months of endpoint subscription fees. A monthly subscription fee of $3.00/month/endpoint applies thereafter. Additional encoders are available separately, per published pricing. The Starter Kit and any extensions to it must be on the same purchase order. Customer-facing and pricing pages have been updated with this information and can be found on the Badger Meter extranet.
+
+
+Question:  How are compound meters handled in a BEACON AMA Managed Solution?
+
+
+Answer:  The standard configuration for endpoints is hourly data with once-per-day call in. Dual measurement meters (compound, fire series assemblies, combo meters) require two endpoints, one for each measuring element. Unless otherwise specified, dual element meters will be shipped with a factory default of hourly reading with a once a day call in schedule. An option for 15 minute data is also available and may be configured upon request at the time the order is entered.  Plans are also in place to build a configuration tool in BEACON AMA that will allow utilities to modify endpoint configurations as needed. More information will be provided as soon as the new feature is released.
+
+
+Please contact Kristie Anderson if you have any questions.
+
+
+
+
+ORION Endpoints Approved Connectivity with
+Master Meter® Octave® Ultrasonic
+
+
+Badger Meter successfully completed connectivity testing with the Master Meter Octave Ultrasonic Meter, encoder output.
+
+
+The Encoder Compatibility section of the Product Data Sheets for ORION Cellular, Fixed Network, Migratable and Classic endpoints have been updated to include the Octave Ultrasonic meter. The ORION Endpoint Installation Manual has also been updated to include appropriate wiring diagrams.
+
+
+Please contact Sheila Nally if you have any questions.
+
+
+Topics in this Issue
+
+
+First BEACON Deployment
+
+Watertech Partnership
+
+Water Summit 2014 Recap
+
+BEACON Starter Kits
+
+BEACON AMA Q&amp;A
+
+ORION Connectivity Update
+
+Holiday Schedule
+
+Events
+
+SALE! Badger Meter Gear
+
+
+
+
+
+
+Badger Meter will be closed on July 3rd and July 4th in observance of Independence Day. Regular business hours will resume on Monday, July 7, 2014.
+
+
+Have a safe and happy
+holiday weekend!
+
+
+Events
+
+WEFTEC
+
+Sep. 27 - Oct. 1, 2014
+
+New Orleans, LA
+
+Register
+
+
+Full List of Events
+
+
+Get Badger Meter Gear
+
+
+Through July 31, 2014, get 50% off* any Men&apos;s or Women&apos;s Badger Meter polo shirt! SHOP NOW
+
+
+*While supplies last
+
+Stay Connected
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

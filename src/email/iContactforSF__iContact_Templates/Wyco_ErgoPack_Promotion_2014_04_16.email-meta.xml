@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Wyco ErgoPack Promotion 2014-04-16</name>
+    <style>none</style>
+    <subject>Best results for concrete consolidation. | Wyco ErgoPack Spring Stocking Promotion</subject>
+    <textOnly>Dear Wyco Reps:
+
+
+We are now in the second week of selling the new ErgoPack and running the Spring Distributor Stocking Promotion. As of yesterday morning, six distributors have ordered units and five sales representatives have gotten their name onto the Commercial Rep Spiff Program scoreboard. Scott Dennis of Lew Hudson banked two three pointers with the spring stocking promotion, while David Peve of MJ Miller scored three one-point shots in a single order. Greg Klein of Larrabee kept pace by scoring two points, while Steve Hammond and Mark Rosenquist, both from MJ Miller, also earned one point each.
+
+
+
+
+
+
+In addition, the ErgoPack demo video is now released and available for viewing on YouTube. We’ve created our own Wyco Tool Company channel for our concrete construction products.  As we prepare more videos, we’ll post them on this YouTube channel. If you have any customers willing to participate in a video or testimonial on ErgoPack or any of our Wyco products – we want to hear from you.
+
+
+
+Happy selling,
+
+Wyco Sales &amp; Marketing
+
+
+Explore Wyco
+Solutions
+
+Click to download brochure
+
+
+
+
+
+Contact
+
+800-233-9926
+
+wycosales@wycotool.com
+
+www.wycotool.com
+
+
+
+Upcoming Schedule:
+
+
+Wyco will be closed for Good Friday on Friday, April 18th. We will return to normal business hours on Monday, April 21st.</textOnly>
+    <type>custom</type>
+</EmailTemplate>

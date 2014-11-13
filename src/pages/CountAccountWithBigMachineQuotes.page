@@ -1,0 +1,105 @@
+<apex:page controller="CountAccountWithBigMachineQuotes_Ctrllr" readOnly="true">
+  <apex:pageBlock >
+      <b>AccountContactRole related to Account and Contact that has Campaign</b>
+      <apex:pageblockTable value="{!accountContactRoles}" var="acr">
+          <apex:column headerValue="AccountContactRole Id" value="{!acr}"/>
+      </apex:pageblockTable>
+  </apex:pageBlock>
+  
+  <apex:pageBlock >
+      <b>Account related to contact that is related to campaign member</b>
+      <apex:pageblockTable value="{!accountRelToContact}" var="artc">
+          <apex:column headerValue="Account Id related to Contact (Campaign Member)" value="{!artc}"/>
+      </apex:pageblockTable>
+  </apex:pageBlock>
+  
+  <apex:pageBlock >
+      <b>Campaign Parent</b>
+      <apex:pageblockTable value="{!campaignParentIds}" var="cp">
+          <apex:column headerValue="Campaign Parent Id" value="{!cp}"/>
+      </apex:pageblockTable>
+  </apex:pageBlock>
+  
+  <apex:pageBlock >
+      <b>Campaign with Campaign as Parent (Total: {!countCampaignWithCampaignParent})</b>
+      <apex:pageblockTable value="{!campaignWithCampaignParent}" var="cwcp">
+          <apex:column headerValue="Campaign Id" value="{!cwcp}"/>
+      </apex:pageblockTable>
+  </apex:pageBlock>
+  
+  <apex:pageBlock >
+      <b>Event that is related to the Acccounts that have BigMachine Quotes (Total: {!countEvent})</b>
+      <apex:pageblockTable value="{!eventIds}" var="eventId">
+          <apex:column headerValue="Event Id" value="{!eventId}"/>
+      </apex:pageblockTable>
+  </apex:pageBlock>
+  
+  <apex:pageBlock >
+      <b>Account Contact Role (Related tot he Account that have BMQ and Contact that is related in the Accounts) (Total: {!countsAccConRole})</b>
+      <apex:pageblockTable value="{!accConRole}" var="accConRole" title="Account Contact Role (Related tot he Account that have BMQ and Contact that is related in the Accounts) (Total: {!countsAccConRole})">
+          <apex:column headerValue="AccountContactRole Id" value="{!accConRole}"/>
+      </apex:pageblockTable>
+  </apex:pageBlock>
+  
+  <apex:pageBlock >
+      <b>Lead with CAmpaign (Total: {!leadcounts})</b>
+      <!--<apex:pageblockTable value="{!leadwithCampaignIds}" var="leadId" title="Lead with CAmpaign (Total: {!leadcounts})">
+          <apex:column headerValue="Lead Id" value="{!leadId}"/>
+      </apex:pageblockTable>-->
+  </apex:pageBlock>
+  
+  <!-- Account with BMQ -->
+  <apex:pageBlock >
+      <b>Account Id with Big Machine Quotes <!--(Total: {!accLists.size})--></b>
+      <apex:pageblockTable value="{!accLists}" var="acc" title="Account Id with Big Machine Quotes ({!accWithBMQ})">
+          <apex:column headerValue="Account Id" value="{!acc.Id}"/>
+          <apex:column headerValue="Account Name" value="{!acc.Name}"/>
+      </apex:pageblockTable>
+  </apex:pageBlock>
+  
+  <!-- Account Parent of the Account with BMQ (only count Accounts not yet in Account with BMQ) -->
+  <apex:pageBlock >
+      <b>Account Parent of the Account with BMQ (only count Accounts not yet in Account with BMQ)</b>
+      <apex:pageblockTable value="{!parentAccIds}" var="accParentIds" title="Account Parent of the Account with BMQ (only count Accounts not yet in Account with BMQ)">
+          <apex:column headerValue="Account Id" value="{!accParentIds}"/>
+      </apex:pageblockTable>
+  </apex:pageBlock>
+  
+  <!-- Contact related to Account that has BMQ -->
+  <apex:pageBlock >
+      <b>Contact related to the Account that has BMQ <!--(Total: {!conListWithBMQ.size})--></b>
+      <apex:pageblockTable value="{!conListWithBMQ}" var="con" title="Contact related to the Account that has BMQ ({!conListWithBMQ.size})">
+          <apex:column headerValue="Contact Id" value="{!con.Id}"/>
+          <apex:column headerValue="Contact Name" value="{!con.Name}"/>
+          <apex:column headerValue="Account Name" value="{!con.AccountId}"/>
+      </apex:pageblockTable>
+  </apex:pageBlock>
+  
+  <!-- Opportunity with BMQ -->
+  <apex:pageBlock >
+      <b>Opportunity Id with Big Machine Quotes <!--(Total: {!oppLists.size})--></b>
+      <apex:pageblockTable value="{!oppLists}" var="opp" title="Opportunity Id with Big Machine Quotes ({!oppWithBMQ})">
+          <apex:column headerValue="Opportunity Id" value="{!opp.Id}"/>
+          <apex:column headerValue="Opportunity Name" value="{!opp.Name}"/>
+          <apex:column headerValue="Opportunity Account Id related" value="{!opp.AccountId}"/>
+      </apex:pageblockTable>
+  </apex:pageBlock>
+  
+  <!-- Opportunity with Account but the Account related has no BMQ -->
+  <apex:pageBlock >
+      <b>Opportunity with Account(Acc without Big Machine Quotes) <!--(Total: {!oppWithoutAcc.size})--></b>
+      <apex:pageblockTable value="{!oppWithoutAcc}" var="oppwithoutaccthathavebmq" title="Opportunity with Account(Acc without Big Machine Quotes)">
+          <apex:column headerValue="Opportunity Id" value="{!oppwithoutaccthathavebmq.Id}"/>
+          <apex:column headerValue="Opportunity Name" value="{!oppwithoutaccthathavebmq.Name}"/>
+          <apex:column headerValue="Opportunity Account Id related" value="{!oppwithoutaccthathavebmq.AccountId}"/>
+      </apex:pageblockTable>
+  </apex:pageBlock>
+  
+  <!-- Contact related to Campaign Member but not included in Contact that is related to Account (Acc has BMQ) -->
+  <apex:pageBlock >
+      <b>Contact related to Campaign Member but not included in Contact that is related to Account (Acc has BMQ) <!--(Total: {!conRelatedToCampaignMember.size})--></b>
+      <apex:pageblockTable value="{!conRelatedToCampaignMember}" var="conRTCM" title="Contact related to Campaign Member but not included in Contact that is related to Account (Acc has BMQ)">
+          <apex:column headerValue="Contact Id" value="{!conRTCM}"/>
+      </apex:pageblockTable>
+  </apex:pageBlock>
+</apex:page>

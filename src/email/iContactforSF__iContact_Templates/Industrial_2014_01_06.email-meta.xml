@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Industrial-2014-01-06</name>
+    <style>none</style>
+    <subject>Badger Meter Industrial Marketing eNews January 6, 2014 – Confidential &amp; Proprietary</subject>
+    <textOnly>View Web Version
+
+
+Industrial Edition | January 6, 2014
+
+Confidential &amp; Proprietary
+
+
+Important Badger Meter Representative
+Satisfaction Survey
+In just a few weeks, our trade association, the Measurement, Control &amp; Automation Association (MCAA) will be conducting an industry-wide customer satisfaction survey in which our company is participating. We hope you will look for this email and respond candidly. While we will NOT see your individual responses, the overall input will help us serve your company better. Your feedback is important to us.
+The survey will be sent from badgermeter@measure.org. Please clear that email address through your email filters so you can give us your input.
+If you have any questions, please contact Judson Luke.
+
+Document Updates
+Research Control® Valves Product Data Sheets
+
+Quick Spare Parts Pricing Tool - Includes additional spare parts that were not included in the last version. Located on the extranet.
+
+Recordall® Disc Meters
+
+Product Data Sheet - NEW lead-free models now included. Located on the Disc Meters web page.
+
+2014 Pricing and Sales Policies
+
+
+REMINDER: New Sales Policies, Price Lists and Discount Schedules for 2014 are available on the Badger Meter extranet. Price lists are available for authorized sales representatives and distributors only.
+
+
+
+Topics in this Issue
+
+
+Rep Satisfaction Survey
+
+Document Updates
+
+2014 Pricing &amp; Sales Policies
+
+Badger Meter Gear
+
+Upcoming Events
+
+
+Get Badger Meter Gear
+
+
+Conveniently shop online for a wide range of Badger Meter merchandise: shirts, hats, water bottles, pens, and more.
+
+Events
+
+
+AHR Expo
+
+Booth 1058
+
+January 21-23
+
+New York, NY
+
+Register Now
+
+
+Full List of Events
+
+Stay Connected
+
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

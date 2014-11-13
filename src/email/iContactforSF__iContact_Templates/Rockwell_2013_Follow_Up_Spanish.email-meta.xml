@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Rockwell 2013 Follow-Up (Spanish)</name>
+    <style>none</style>
+    <subject>Gracias por visitar el stand de Badger Meter en el evento de Automation Fair.</subject>
+    <textOnly>Ver Online | View in English
+
+
+Gracias por visitar el stand de Badger Meter en el evento de Automation Fair®.
+Esperamos poder proveerle más información de cómo las válvulas de control de Badger Meter, nuestros posicionadores inteligentes así como nuestros medidores de flujo pueden ser la solución para sus necesidades de instrumentación.
+
+Badger Meter es un fabricante líder de productos de medición de fluidos y tecnologías de control. Nuestros productos son usados para medir y controlar fluidos en una gran variedad de aplicaciones. Cuando su proceso dependa de tecnologías de medición exactas, monitoreo y control, cuente con nosotros para ayudarle a obtener los datos que necesita para optimizar la operación de su sistema.
+
+Un representante de ventas de Badger Meter se pondrá en contacto con usted muy pronto para ayudarle a identificar cualquier solución que pudiese requerir. Si necesita soporte inmediato por favor contáctenos al número telefónico  800-876-3837 o bien al correo electrónico infocentral@badgermeter.com.
+Esperamos poder apoyarle  a encontrar las soluciones que puedan ayudar a mejorar su negocio.
+
+
+Atentamente,
+Horacio Gonzalez
+Industrial Sales
+
+
+
+
+Badger Meter
+
+Soluciones Folleto
+
+(haga clic para descargar)
+
+
+
+
+Contacto
+
+800-876-3837
+
+infocentral@badgermeter.com
+
+www.badgermeter.com</textOnly>
+    <type>custom</type>
+</EmailTemplate>

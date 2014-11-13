@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Utility 2014-08-01</name>
+    <style>none</style>
+    <subject>BEACON AMA Video | HR-E Reminders | eStore Sale Extended Through 8/17</subject>
+    <textOnly>View Web Version
+
+
+Utility Edition | August 1, 2014
+
+Confidential &amp; Proprietary
+
+
+
+BEACON Advanced Metering Analytics Video
+
+
+A new BEACON AMA short video sales tool is available, titled BEACON – An Enterprise System. The two-minute video highlights that BEACON AMA is a utility-wide enterprise system and a consumer portal, NOT just a reading data management system. It also highlights how an immediate transition to BEACON Advanced Metering Analytics from any legacy system can be accomplished.
+
+
+
+
+The new video is located within the BEACON AMA section of the Badger Meter Extranet under the Videos tab.
+
+
+Please contact Dan Merritt if you have any questions.
+
+
+
+
+HR-E Reminders
+
+
+The High Resolution Encoder (HR-E) was formally released on June 3, 2014. As a direct replacement for the ADE, the HR-E utilizes the same light-emitting diode technology, but combines proven technology with a higher reading resolution to provide greater visibility to water usage.
+
+
+The HR-E communicates using the industry standard ASCII protocol and provides connectivity to Badger Meter ORION® Cellular, Fixed Network (SE), Migratable (ME), and Classic (CE) endpoints as well as GALAXY® and BadgerTouch endpoints and Itron 100W+ ERTs. The HR-E is designed for use with all Badger Meter Recordall® Disc Series, Turbo Series, Compound Series, Combo Series, and Fire Series meters and assemblies.
+
+
+In the next couple of months, we will introduce a 12-month transition strategy to guide the market through the change to our high resolution encoders. Work should begin now to transition your customers from the ADE to one of our two high resolution encoder offerings.
+
+
+Important action items for you include:
+
+Obtain product approvals as required.
+Get customer bid specs changed. Note: Upcoming bid extensions are an opportune time to make the transition.
+Adjust your forecasts from ADE to HR-E or HR-E LCD.
+Transition customers from 60W to the Itron 100W+ or other compatible Badger Meter ORION solution.
+Provide reference account information to Jan Boyer.
+For ORION and GALAXY solutions, please remember to work with your customers to:
+
+Apply the correct test circle codes or multipliers.
+Discuss any software version requirements.
+
+
+The HR-E training presentation and the recorded WebEx are both available to you on the Badger Meter Extranet.
+
+
+Please contact Jan Boyer if you have any questions.
+
+
+
+
+High Resolution LCD Encoders (HR-E LCD) with Integral Clip for Itron
+
+
+HR-E LCD encoders that are ordered with an Itron 100W+ pit ERT or as generic connectivity with an Itron inline connector will have the integral mount clip on the side of the shroud. This clip is a molded-in feature located on the side of the shroud similar to the current RTR and ADE for Itron product offerings.
+
+
+Since this is a standard feature for encoders ordered for Itron connectivity, orders already in the system that have not yet started through the production process will be built with shrouds that have the molded-in clip.
+
+
+Please contact Jan Boyer if you have any questions.
+
+
+
+
+ORION Classic (CE) 4.0 Gateway - End of Life
+
+
+Due to component obsolescence, the ORION Classic (CE) 4.0
+gateway receiver is end of life and no longer available for purchase. The sales force should use this opportunity to introduce ORION Classic (CE) 4.0 gateway receiver customers to the ORION Cellular endpoint. All ORION 4.0 gateway literature has been moved to the Badger Meter Extranet.
+
+
+Please contact Sheila Nally if you have any questions.
+
+
+
+BEACON AMA Starter Kits: August 2014 Update
+
+Awesome work by the sales team and channel partners for a great couple of weeks! Since our last update, 14 starter kits have been sold, bringing the total to 96 BEACON AMA starter kits deployed in the United States!
+
+
+As a reminder, customers who are interested in testing BEACON Advanced Metering Analytics (AMA) with more than the standard amount of ORION Cellular endpoints may work with their sales representative to discuss pricing for an expanded starter kit.
+
+
+BEACON AMA Starter Kit Sales:
+
+7/16/2014 - 8/1/2014
+
+
+Please contact Cindy Kransler if you have any questions.
+
+
+
+
+
+BEACON AMA Q&amp;A
+
+
+Question: What is the new BEACON AMA file format?
+
+
+Answer:  The BEACON AMA file format includes additional data fields required for the new software to fully function. The fields enable features such as sorting, comparing, grouping and analyzing account records and facilitates certain maintenance tasks, such as the identification of duplicate records in BEACON AMA. A document defining the new fields will be released soon.
+
+
+
+
+Please contact Kristie Anderson if you have any questions.
+
+
+
+
+Documentation Updates
+
+
+Several technical reference documents have recently been updated. The new document versions include up-to-date specifications
+and photos and have been reformatted for improved usability.
+
+E-Series® Ultrasonic Meter
+
+​Product Data Sheet
+
+​Stainless Steel
+Engineered Polymer
+
+
+
+Portable Small Meter Tester (Model PSMT)
+
+​User Manual (Available online only)
+
+
+Topics in this Issue
+
+
+New BEACON AMA Video
+
+HR-E Reminders
+
+HR-E LCD Integral Clip
+
+ORION CE 4.0: End of Life
+
+BEACON AMA Starter Kits
+
+BEACON AMA Q&amp;A
+
+Documentation Updates
+
+Water Summit 2014 Interview
+
+Events
+
+SALE! Badger Meter Gear
+
+eNews Archive
+
+
+
+
+Rich Meeusen Interview:
+
+Water Summit 2014
+
+
+
+
+Events
+
+WEFTEC
+
+Sep. 27 - Oct. 1, 2014
+
+New Orleans, LA
+
+Register
+
+
+Full List of Events
+
+
+Get Badger Meter Gear
+
+
+EXTENDED through
+August 17, 2014, receive
+50% off* any Men&apos;s or Women&apos;s Badger Meter polo shirt! SHOP NOW
+
+
+*While supplies last
+
+
+eNews Archive
+
+
+
+July 15, 2014
+
+July 1, 2014
+
+June 17, 2014
+
+June 3, 2014
+
+
+Stay Connected
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

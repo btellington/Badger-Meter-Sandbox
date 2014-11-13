@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Utility 2014-08-15</name>
+    <style>none</style>
+    <subject>BEACON AMA Starter Kits | AWS Security and Privacy | RTR Design Change</subject>
+    <textOnly>View Web Version
+
+
+Utility Edition | August 15, 2014
+
+Confidential &amp; Proprietary
+
+
+BEACON AMA Starter Kits: Mid-August 2014 Update
+
+Continued great work by the sales team and channel partners for the last couple of weeks! Since our last update, 7 starter kits have been sold, bringing the total to 103 BEACON AMA starter kits deployed in the United States!
+
+
+As a reminder, customers who are interested in testing BEACON Advanced Metering Analytics (AMA) with more than the standard amount of ORION® Cellular endpoints may work with their sales representative to discuss pricing for an expanded starter kit.
+
+
+BEACON AMA Starter Kit Sales:
+
+8/2/2014 - 8/15/2014
+
+Please contact Cindy Kransler if you have any questions.
+
+
+
+Amazon Security and Privacy Whitepaper for BEACON AMA Now Available on the Badger Meter Extranet
+
+A detailed report from Amazon Web Services (AWS), the provider of cloud services for Badger Meter Beacon Advanced Metering Analytics (AMA), is now available on the Badger Meter extranet. It is a detailed report from AWS that addresses many topics regarding physical security, data security and access, that is an important piece to the foundation of our overall BEACON AMA security strategy. An additional whitepaper will be released by Badger Meter that addresses information regarding our own privacy and security policies beyond that of AWS. While the AWS whitepaper is available to the general public on their website, we are posting it on the Badger Meter extranet so you can more properly present it to interested customers.
+
+Download the AWS Security and Privacy Whitepaper on the Badger Meter extranet.
+
+Please contact Dan Merritt if you have any questions.
+
+
+
+Local Register and RTR Design Modification
+
+
+Badger Meter is incorporating a modification to the sweep hand for all local registers and Recordall® Transmitter Registers (RTR). When compared side-by-side with current production, there is now a slightly thicker sweep hand in the new design.
+
+This design change will go into effect mid-September and encoders built with the new sweep hand will start with a date code of 0415. Orders in the system will be built with one style sweep hand. There will not be mixed orders.
+
+
+
+
+
+Please contact Jan Boyer if you have any questions.
+
+
+
+ModMAG On-Hand Inventory Report
+
+
+Note: The ModMAG On-Hand Inventory Report has been updated and is available for download on the Badger Meter extranet. This report is meant to notify sales of the slow moving or special built mag meters that are currently in stock that would qualify for a faster delivery lead time. The report will be updated every two weeks and is subject to change.
+
+Download the ModMAG On-Hand Inventory Report on the Badger Meter extranet.
+
+Please contact Brooke Lange if you have any questions.
+
+
+
+
+Documentation Updates
+
+
+Several technical reference documents have recently been updated. The new document versions include up-to-date specifications
+and photos and have been reformatted for improved usability.
+
+ORION® Documents
+
+ORION Migratable Mobile Transceiver
+Application Data
+ORION Mobile Transceiver Parts List
+ORION Mobile Receiver Parts List
+ORION Classic Mobile Receiver Application Data
+ORION Laptop Mobile Reading System Parts List
+ORION Mobile Reading System Product
+Data Sheet
+
+
+E-Series® Ultrasonic Meters
+
+User Manual
+
+
+Topics in this Issue
+
+
+BEACON AMA Starter Kits
+
+AWS Whitepaper Available
+
+Register Design Modification
+
+ModMAG On-Hand Inventory
+
+Documentation Updates
+
+Events
+
+SALE! Badger Meter Gear
+
+eNews Archive
+
+
+Events
+
+WEFTEC
+
+Sep. 27 - Oct. 1, 2014
+
+New Orleans, LA
+
+Register
+
+
+NRWA
+
+Oct. 6 - Oct. 8, 2014
+
+Seattle, WA
+
+Register
+
+
+Full List of Events
+
+
+Get Badger Meter Gear
+
+
+EXTENDED through
+August 17, 2014, receive
+50% off* any Men&apos;s or Women&apos;s Badger Meter polo shirt! SHOP NOW
+
+
+*While supplies last
+
+
+eNews Archive
+
+
+
+August 1, 2014
+
+July 15, 2014
+
+July 1, 2014
+
+June 17, 2014
+
+June 3, 2014
+
+
+Stay Connected
+
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have. Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

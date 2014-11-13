@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>Badger Sales Reports</name>
+    <publicFolderAccess>ReadWrite</publicFolderAccess>
+    <sharedTo>
+        <group>Product_Management_Group</group>
+        <role>Global_Admin</role>
+        <role>Marketing</role>
+        <role>Sales_Manager</role>
+        <role>Sales_Rep</role>
+    </sharedTo>
+</ReportFolder>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Flow Instrumentation 2014-08-18</name>
+    <style>none</style>
+    <subject>New Dynasonics Price List</subject>
+    <textOnly>View Web Version
+
+
+New Dynasonics Price List | August 18, 2014
+
+Confidential &amp; Proprietary
+
+
+Dear Dynasonics Representative:
+As stated in the eNews on July 15, the Dynasonics price list has been updated and went into effect on Friday,
+August 15, 2014. DOWNLOAD
+Listed below is a summary of the changes that were implemented since the January 6, 2014 price list. You may also download the summary of changes in PDF format on the extranet.
+Summary of Changes:
+
+Addition of:
+
+DTTR transducer sets
+DTTR rail mounting system
+Australian power cord for DXN portable
+German language option for TFX Ultra
+
+General safety option available for all power supply option for TFX Ultra
+Price reduction of Industrial RTD Kits
+
+TFX Ultra
+
+D010‐3000‐123
+D010‐3000‐124
+D010‐3000‐125
+
+DXN Portable
+
+D010‐3000‐128
+D010‐3000‐130
+D010‐3000‐132
+
+
+Product specifications corrections
+Repair pricing corrections
+Removal of discontinued products and options
+
+Brad Harrison connector options
+Fusion hybrid ultrasonic flow meters
+
+Relocation of some accessories from meters to transducer pages
+
+Please contact Ryan Kalinoski (414‐371‐6212) or
+Cheryl Ades Anspach (414‐371‐6530) with any questions.
+
+Check Out the New Product Selection Chart
+
+
+
+
+The new selection chart provides a high-level overview of our entire Flow Instrumentation offering. In order to help guide you and your customers to the proper product, the selection chart contains metering technology comparisons, ideal application environments, and basic performance specifications for all Flow Instrumentation products.
+
+
+Click to download
+
+
+
+
+As always, we welcome your input. Please contact us with any comments or suggestions you may have. Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

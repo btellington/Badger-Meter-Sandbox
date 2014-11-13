@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Flow Instrumentation 2014-09-03</name>
+    <style>none</style>
+    <subject>Greg Gomez Named VP of Flow Instrumentation | RCV Case Study | Oil and Gas Industry Brochure</subject>
+    <textOnly>View Web Version
+
+
+Flow Instrumentation Edition | September 3, 2014
+
+Confidential &amp; Proprietary
+
+
+Organizational Changes Put Added Focus on Badger Meter Flow Instrumentation
+
+
+As of September 1, 2014, Greg Gomez moved from his role as VP of Business Development to his new role as VP of Flow Instrumentation. Greg has responsibility for Flow Instrumentation product development, manufacturing, customer service, sales and marketing. Kim Stoll remains VP of Sales &amp; Marketing for Utility products and will be responsible for the integration and management of the recently announced intention to acquire National Meter &amp; Automation, Inc.
+
+
+Greg’s appointment to be a dedicated VP of Flow Instrumentation stems from the commitment of Badger Meter CEO, Rich Meeusen, and our investors to the Flow Instrumentation business. With a VP devoted solely to the Flow Instrumentation business, Badger Meter is poised to make improvements in many aspects of the business by increasing coordination between various internal departments involved in the design, manufacture and sale of flow instrumentation products. Many of the flow instrumentation products came to Badger Meter through acquisitions and while the majority effort was spent on integrating sales and marketing functions, the recent organizational shift allows for improved utilization and alignment of resources in all areas of the business.
+
+
+With a sharpened focus on business and operational processes, Badger Meter Flow Instrumentation is positioned for long-term growth in sales and product development, as well as continuing to heighten the quality of service to customers around the world.
+
+High Temperature Gas Control for Automotive
+Test Cell - Research Control® Valves
+
+
+Our latest case study describes how an automotive test system manufacturer used advanced gas control technology, provided by Badger Meter. The application required a robust device for modulating high-temperature exhaust gas as part of a backpressure measurement solution in an engine test cell. Read the entire story online or download the PDF.
+Here are the highlights from the application:
+Challenge:
+
+Fluid temperature of 850° F is higher than the capabilities of a normal control valve and packing pairing
+High shut-off pressure of 300 psig
+Accurate and reliable pressure control was necessary for a successful application
+
+Solution
+
+Research Control® Valve Model 9000
+ANSI Class 300
+316 Stainless steel body with 10 in. extended bonnet and graphite packing
+6…30 psig bench range with 12 psig reload
+High-accuracy pneumatic positioner overcomes high temperature to allow for 50:1 valve rangeability
+
+DOWNLOAD CASE STUDY PDF
+VIEW STORY ONLINE
+
+Documentation
+
+
+Several technical reference documents have been updated. The new documents include up-to-date specifications and photos and have been reformatted for improved usability.
+
+
+Automotive Fluid Product Data Sheets
+
+Model EPM-2 STD
+
+Model EPM-2 ADV
+
+Model EPM-2 STD-SF
+
+Model EPM-2 ADV-SF
+
+
+Automotive Oval Gear
+
+Data Sheets
+
+Transmitter, Models OGT and OGT-SF, 1/2 inch
+Transmitter, Models OGT-HF, 3/4 inch
+Transmitter, Models OGT-HF-SF, 3/4 inch
+Transmitter, Models OGT-HF, 1 inch
+Transmitter, Models OGT-HF-SF, 1 inch
+Enhanced Electronic Meters, Models OGE and OGE-SF, 1/2 inch
+Enhanced Electronic Meters, Models OGE-HF and OGE-HF-SF, 3/4 inch
+Enhanced Electronic Meters, Models OGE-HF and OGE-HF-SF, 1 inch
+
+​Parts List
+
+​Enhanced Electronic Meters, Models OGE-HF, OGE-HF-SF, OGT-HF and OGT-HF-SF, 3/4&quot; and 1&quot;
+Enhanced Electronic Meters, Models OGE, OGE-SF and OGT
+Electronic Meters, Models OG and OGT
+
+Programming Instructions
+
+​Enhanced Electronic Meters, Models OG and PG-690
+Enhanced Electronic Meters, Models OG, OGE-HF and OG-HF, PGE and PG-690
+
+
+Flo-tech® Hydraulic Diagnostic Products
+
+PFM Portable Hydraulic Testers User Manual
+
+Hedland® Variable Area Meters
+
+Inline Pneumatic Flow Meter User Manual
+Flow Alert Flow Switch User Manual
+
+Impeller Products
+
+Data Industrial Series 3100 Dual Channel Monitor/Controller/Transmitter User Manual
+
+ModMAG M-Series®
+
+M5000 Product Data Sheet
+M5000 User Manual
+MODBUS Memory Map
+M2000 Parts List
+Connecting a Badger Meter Endpoint to the M2000
+M2000 to M2000 Interchangeability Procedure
+
+RCV Valve Positioner Quick Start Guides
+
+Stainless Steel Valve Positioner
+​SRD991 / SRD960 Valve Diagnosis
+
+Topics in this Issue
+
+
+- Organizational Change
+
+- RCV Case Study
+
+- Documentation Updates
+
+- Oil &amp; Gas Brochure
+
+- ModMAG Stocked Meters
+
+- Events
+
+NEW Oil and Gas Industry Brochure
+
+
+The new brochure focuses on how Badger Flow Instrumentation solutions serve customers in the Oil &amp; Gas industry.
+
+
+
+Click to download
+
+ModMAG M-Series®
+Stocked Item Update
+
+
+Release dates have changed for the DC Power options and M1000 stocked offering since our initial announcement. The revised document can be found on the extranet. Stay tuned for updates on the ModMAG stocked meter offering in future eNews messages.
+Download the Stocked Meter Document
+ModMAG On-Hand Inventory Report
+The ModMAG On-Hand Inventory Report has been updated and is available for download on the Badger Meter extranet.
+Download the On-Hand Inventory Report
+
+Events
+
+
+WEFTEC
+
+Sept. 27 - Oct. 1
+
+New Orleans, LA
+
+Booth 6128
+
+
+Automotive Testing Expo
+
+October 28-30
+
+Novi, MI
+
+Booth 10026P
+
+
+Automation Fair
+
+November 19-20
+
+Anaheim, CA
+
+Booth # TBD
+
+
+Full list of events
+
+eNews Archive
+
+
+August 15, 2014
+
+August 1, 2014
+
+July 15, 2014
+
+July 1, 2014
+
+June 17, 2014
+
+June 3, 2014
+
+
+
+
+As always, we welcome your input. Please contact us with any comments or suggestions you may have. Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

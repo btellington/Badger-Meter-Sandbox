@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpportunitySharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <ownerRules>
+        <fullName>Grant_All_CSRs_Opportunity_Access</fullName>
+        <sharedTo>
+            <group>All_Customer_Service_Reps</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>All_Users</group>
+        </sharedFrom>
+        <name>Grant All CSRs Opportunity Access</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+</OpportunitySharingRules>

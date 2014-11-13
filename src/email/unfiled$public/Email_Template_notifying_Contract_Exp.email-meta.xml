@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Email Template notifying Contract Exp</name>
+    <style>none</style>
+    <subject>Notification on Contract Expiration Date</subject>
+    <textOnly>Dear Satarupa
+
+This to notify that the Contract Expiration date for {!Rep__c.Name} is approaching its due date.
+
+Please do the needful. You can follow the link below.
+
+{!Rep__c.Link}
+
+Regards
+{!User.Name}</textOnly>
+    <type>custom</type>
+</EmailTemplate>

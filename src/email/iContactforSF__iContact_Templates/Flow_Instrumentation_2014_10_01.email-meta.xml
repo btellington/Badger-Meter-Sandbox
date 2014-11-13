@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Flow Instrumentation 2014-10-01</name>
+    <style>none</style>
+    <subject>John Huff Appointed Director of Sales | ModMAG Specials in Stock for Limited Time</subject>
+    <textOnly>View Web Version
+
+
+Flow Instrumentation Edition | October 1, 2014
+
+Confidential &amp; Proprietary
+
+
+John Huff Appointed Director of Sales – Flow Instrumentation
+We are pleased to announce John Huff’s new role as Director of Sales – Flow Instrumentation. In this position, John will be responsible for managing sales activities of the Flow Instrumentation team as well as developing and implementing strategic plans in support of our corporate goals.
+Previously, John held the position of Regional Sales Manager – South Central, where he realized continual double-digit annual sales growth over the last four years. John has over 20 years of industrial sales management experience in both distribution and manufacturing disciplines, and started his Badger Meter career with Racine Federated in 2010.
+“I’m very optimistic about what’s to come for our Flow Instrumentation business,” said Huff. “Our first course of action is to establish strategies that leverage the strengths and expertise of our sales channel. Working closely with our sales representatives will provide us the kind of market insight needed to win orders in the short-term and identify new market opportunities for the long-term. After all, our channel partners are the eyes and ears in the field on a daily basis.”
+John’s promotion, along with the previously announced appointment of Greg Gomez as VP – Flow Instrumentation, both indicate a new focus and fresh perspective for Badger Meter Flow Instrumentation. With experienced leadership, an established sales channel and respected product lines in place, Badger Meter Flow Instrumentation is positioned for even greater success in the marketplace.
+“This is an exciting time for Badger Meter,” John added. “We’re ready to start running.”
+
+Build-to-Order: Special Capabilities Extending Beyond Stocked Meter Offering
+Our new stocked meter plan offers shorter lead times for a wide breadth of ModMAG M-Series® meters, which meet the requirements of many common applications. However, in some unique or especially challenging applications, there may be a need for a meter to be engineered outside the realm of our stocked meter offering. This includes larger meter sizes, extended lay lengths, special liner material, and any other option not included in the scope of our stocked meter specifications.
+New ModMAG Custom Solutions Flyer
+The new flyer shows examples of custom solution capabilities within our ModMAG product line, including extended lay lengths and extra-large pipe sizes. Download
+Custom Meters Currently in Stock - Available with Shorter Lead Times
+We currently have several meters in inventory that aren&apos;t typically kept on-hand. The following list is a snapshot of the &quot;special&quot; meters in stock. These meters, although outside of the normal specification of our stocked meter offering, are able to ship under shorter lead times while supplies last.
+
+
+Please contact your account manager or customer service representative for more information.
+
+Dynasonics® DTTR Transducers and Rail System
+Now Available
+The new easier-to-install transducers and rail system are available for pipes two inches and larger. The DTTR transducers route cables parallel to the pipe and incorporate a holding mechanism for the new rail system.
+The DTTR transducer replaces the DTTN general purpose transducer with either the cord grip or flexible armor: conduit options N or A. Additionally, the rail system holds the transducers in place and includes a sight window for easier measurement of the spacing distance between two transducers and is available as an accessory.
+For further information, refer to the updated TFX Ultra and TFXL Product Data Sheets.
+TFX Ultra Firmware and Ultralink Revision S
+TFX Ultra firmware and Ultralink configuration software now includes:
+
+Option for negative flow totalizer (flow only meter)
+Separate multiplier values for pulse totalizer outputs (flow only meter)
+Option to virtually swap RTD position in case the RTDs are installed in reverse order (energy meter)
+
+These enhancements improve upon the recent Revision R update, which included field settable BACnet baud rates and option for negative energy flow outputs.
+
+Documentation
+
+
+Several technical reference documents have been updated. The new documents include up-to-date specifications and photos and have been reformatted for improved usability.
+
+
+ModMAG M-Series®
+
+Updated Price List – ¼” grounding rings added, no price changes
+
+Recordall® Industrial Meters
+
+Nutating Disc Meter User Manual
+
+Industrial Oval Gear (IOG)
+
+IOG User Manual
+IOG Inline &amp; Flanged Meters Data Sheet
+
+Dynasonics TFX Ultra
+
+Data Sheet
+User Manual
+
+Blancett®
+
+K Factor Scaler User Manual
+B3000 Flow Monitor Data Sheet
+
+Hedland®
+
+Inline Liquid Flow Meter User Manual
+Flow Alert User Manual
+
+Pistol Grip Oval Gear
+
+Model PG Standard Meter Parts List
+Models PGB and AF, Preset Batch Meters Parts List
+
+Automotive Flow Products
+
+Universal Meters Data Sheet
+Universal Meters, Models  UP
+Universal Meters, Models  UL
+Universal Meters, Models  UH
+Fluid Management System Printer Replacement Kit
+
+Concrete Flow Products
+
+Admix Dispenser System User Manuals
+
+Three-Position Manual Control
+Complete Dispenser Guide
+
+​Admix Dispenser System Data Sheets
+
+Complete Dispenser Guide
+Direct Feed, Diaphragm Pump
+Direct Feed, Calcium Chloride
+Semi-Automatic
+MEASURE RITE Mixer and Slump Rack Meter, Sizes 3/4 Inch to 2 Inch MR-1b
+
+Model CB-30 Batch Controller
+
+User Manual
+Data Sheet
+
+
+Topics in this Issue
+
+
+- John Huff, Director of Sales
+
+- ModMAG Custom Solutions
+
+- Dynasonics DTTR Available
+
+- Documentation Updates
+
+- Blancett Case Study
+
+- New ModMAG Flyers
+
+- Events
+
+New Blancett Case Study
+
+
+
+This case study describes the use of precision flow measurement technology by a leading iron ore producer in Western Australia. This application required turbine flow meters for monitoring circulating-oil system flow under harsh conditions at a remote mining facility. Download
+
+New ModMAG Flyers
+
+
+
+ModMAG Custom Solutions
+
+Shows examples of custom solutions for ModMAG meters, including extended lay lengths and extra-large pipe sizes. Download
+
+
+
+ModMAG Hydraulic Fracturing Solutions
+Describes how M1000 ModMAG meters may be used in Hydraulic Fracturing, especially on-truck applications. Download
+
+Events
+
+
+Automotive Testing Expo
+
+October 28-30
+
+Novi, MI
+
+Booth 10026P
+
+
+Automation Fair
+
+November 19-20
+
+Anaheim, CA
+
+Booth 680
+
+
+Full list of events
+
+eNews Archive
+
+
+September 16, 2014
+
+September 3, 2014
+
+August 15, 2014
+
+August 1, 2014
+
+July 15, 2014
+
+July 1, 2014
+
+June 17, 2014
+
+
+
+
+As always, we welcome your input. Please contact us with any comments or suggestions you may have. Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

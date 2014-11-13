@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Badger Meter Scottsdale Fax Issue 2014-05-07</name>
+    <style>none</style>
+    <subject>Special Announcement - Badger Meter Scottsdale Fax Issues</subject>
+    <textOnly>View Web Version
+
+
+Special Announcement - Scottsdale Fax Issue | May 7, 2014
+
+Confidential &amp; Proprietary
+
+
+Dear Badger Meter Cox Sales Representatives,
+
+Due to technical issues with fax numbers at our Badger Meter office in Scottsdale, AZ, we were not receiving faxed communication between the dates of March 14, 2014 and May 2, 2014. This affects products manufactured in Scottsdale, including Cox and Flow Dynamics.
+As of Friday afternoon, May 2, all fax numbers were restored to proper working order. Unfortunately, we are unable to recover any faxes that may have been missed.
+If you or your customer sent an order, request for quote, or any other message via fax to Badger Meter Scottsdale within this time frame, please contact Customer Service at
+480-922-7446 ext. 14 or jbaxter@badgermeter.com to check on the status of your order.
+We sincerely apologize for any inconvenience or delays this has caused.
+Sincerely,
+Tracy Lagona
+Director - Industrial Sales
+
+
+Download this Message
+as a PDF
+
+
+
+
+Click to download this message in PDF format.
+
+
+
+
+As always, we welcome your input. Please contact us with any comments or suggestions you may have. Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

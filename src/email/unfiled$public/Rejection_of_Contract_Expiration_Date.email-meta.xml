@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Rejection of Contract Expiration Date</name>
+    <style>none</style>
+    <subject>Rejection of the Contract Expiration Date</subject>
+    <textOnly>Dear {!Rep__c.OwnerFullName}
+Sorry to inform you that your Contract Expiration date is rejected.
+
+Please follow the link below .
+{!Rep__c.Link}
+
+Thanks
+{!User.Name}</textOnly>
+    <type>custom</type>
+</EmailTemplate>

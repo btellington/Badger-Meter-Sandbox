@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>AHR Expo 2014 Pre-Show</name>
+    <style>none</style>
+    <subject>See you at AHR Expo | Flow metrics you can count on.</subject>
+    <textOnly>View Web Version
+
+
+Measurable Performance. Proven HVAC Solutions.
+Accurate| Low Maintenance | Rugged | Cost Effective
+Expect peak performance from your building systems every day. Measure energy demand and resource usage with the Badger Meter family of Btu flow devices. Plus, our hydronic energy monitors, transmitters and flow meter solutions are both BACnet® and Modbus® protocol compatible and interface with most existing control systems.
+At AHR Expo, in booth 1058, we will be displaying the following flow meter technology:
+
+M-Series Electromagnetic Meters
+Clamp-on Ultrasonic Energy Meters
+Portable Ultrasonic Flow Meters
+Impeller Btu Meters
+
+
+
+Badger Meter
+
+Booth 1058
+
+
+
+
+We would love the opportunity to speak with you about how we can to contribute to the success of your business.
+
+
+Stop by our booth at your convenience, or schedule a meeting so we can ensure we have the proper staff on hand to assist you.
+
+
+
+Contact
+
+800-876-3837
+
+infocentral@badgermeter.com
+
+www.badgermeter.com</textOnly>
+    <type>custom</type>
+</EmailTemplate>

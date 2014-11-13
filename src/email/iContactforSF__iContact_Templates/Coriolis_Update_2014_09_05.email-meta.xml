@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Coriolis Update 2014-09-05</name>
+    <style>none</style>
+    <subject>Sales Tools for Coriolis Flow Meters</subject>
+    <textOnly>Coriolis Update | September 5, 2014
+
+Confidential &amp; Proprietary
+
+
+Dear Coriolis Representative:
+As communicated last week, our Coriolis meters are now available for shipment. As you begin to seek out Coriolis applications in field, we want to be sure we&apos;re providing the tools necessary to find opportunities and educated customers. We realize promotional needs are different for all salespeople depending on strategy, internal capabilities and geographical limitations. Please let us know what we can do to help you to promote Coriolis in your area. Listed below are a few options we can offer, however we&apos;re always open to any other ideas you may have. We look forward to working with you to launch Coriolis meters in your region.
+
+Email promotion
+Mailer
+Advertisement (print or digital)
+Flyer
+Lunch &amp; Learn
+Demo equipment for an extended period
+Support for a local trade show or event
+
+Please let us know how we can help.
+
+
+
+
+Email marketing@badgermeter.com or call your Badger Meter Regional Sales Manager.
+
+Sincerely,
+Cheryl Ades Anspach
+Marketing Manager
+
+
+
+Quick Links
+
+
+Web Page
+
+Brochure
+
+Data Sheet
+
+Application Data
+
+User Manual
+
+Quick Start Guide
+
+Price List
+
+RCT Selection Tool
+
+Sales Incentive Program</textOnly>
+    <type>custom</type>
+</EmailTemplate>

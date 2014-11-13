@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>RCV Lead Time Update 2014-03-13</name>
+    <style>none</style>
+    <subject>Special Announcement – RCV Valves Return to Standard Lead Times – Confidential &amp; Proprietary</subject>
+    <textOnly>Lead Time Update for RCV Valves | March 13, 2014
+
+Confidential &amp; Proprietary
+
+
+Research Control® Valves Return toStandard Lead Times
+
+As of today, the Research Control® Valves product line is returning to normal delivery standards. We apologize for any burdens you may have experienced during the brief period of extended lead times.
+
+If you have any questions, please contact your sales representative or customer service.
+
+Sincerely,
+Brian Kettner
+Marketing Manager
+RCV-Research Control Valves and Preso
+
+
+
+Click to download the announcement in PDF format.
+
+Stay Connected
+
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Utility 2014-09-16</name>
+    <style>none</style>
+    <subject>BEACON AMA Starter Kits | EyeOnWater App Now Available | E-Series and HR-E Animations | Installing Endpoints</subject>
+    <textOnly>Utility Edition | September 16, 2014
+
+Confidential &amp; Proprietary
+
+
+BEACON AMA Starter Kits: Mid-September 2014 Update
+
+Continued great work by the sales team and channel partners for the last couple of weeks! Since our last update, 7 starter kits have been sold, bringing the total to 122 BEACON AMA starter kits deployed in the United States!
+
+
+As a reminder, customers who are interested in deploying a BEACON Advanced Metering Analytics (AMA) starter kit with more than the standard amount of ORION® Cellular endpoints may work with their sales representative to discuss pricing for an expanded starter kit.
+
+
+BEACON AMA Starter Kit Sales:
+
+9/3/2014 - 9/15/2014
+
+
+
+
+Please contact Cindy Kransler if you have any questions.
+
+
+
+NEW E-Series® Ultrasonic Meter and HR-E Encoder Promotional Videos
+
+
+New E-Series Ultrasonic meter and High Resolution encoder
+(HR-E) video animations are now available.
+
+
+Download and watch (in mp4 or wmv format) the E-Series Ultrasonic video on the E-Series Ultrasonic meters page of the Badger Meter website or on the Badger Meter extranet.
+
+
+Download and watch (in mp4 or wmv format) the HR-E animation on the High Resolution Encoders (HR-E) page of the Badger Meter website or on the Badger Meter extranet.
+
+
+
+Please contact Brooke Lange if you have any questions.
+
+
+The EyeOnWater consumer app is now available in the Apple App Store!
+The EyeOnWater consumer app is now available in the Apple App Store! The EyeOnWater app gives consumers of water direct access to their own water usage data and provides tools to help manage their water usage. The app is optimized for the iPhone, but can also be used with the iPad or iPod Touch.
+The EyeOnWater app includes:
+
+Graphs showing recent usage, with a comparison against average usage
+A graph showing usage trends
+Detailed charting of historical usage
+A leak alert
+Recommendations to conserve water, with the ability to set a profile and get personalized tips and a savings calculator
+
+To demonstrate and promote the EyeOnWater consumer app, Badger Meter direct and distributor sales representatives should download the app to an an iPhone (iPad and iPod Touch may also be used) and select the ‘Demo’ link at the bottom of the sign-in screen. The demo account can be used at any time to demonstrate the power behind the proactive information that BEACON and EyeOnWater provide.
+For utilities and end water consumers with a BEACON deployment, additional information is required to register an account. Information to get started was recently posted to the Badger Meter Extranet in Word and PDF format. Please share this information with utilities to help them get their end water consumers registered to use the EyeOnWater consumer app to manage their usage.
+The EyeOnWater consumer app for Android devices is under development with an anticipated release by the end of October. A separate announcement will be made as soon as it is released.
+Please contact Kristie Anderson if you have any questions.
+
+
+Installing Endpoints in Challenging Environments
+
+Note: Please make sure customers have proper understanding and expectations set before installing endpoints, especially in challenging environments.
+
+
+
+
+For example, as illustrated in the image above, there is no apparent evidence of an AMI endpoint mounted anywhere outside the vault, and the vault lid is solid metal. This would lead an observer to assume the endpoint is mounted inside the vault. Unfortunately, any RF device mounted under a metal lid will likely not establish communication outside the pit because metal reflects the RF signal, and the concrete is going to absorb most of the RF energy trying to pass through it. Even if mounted through a metal lid, the RF signal will be compromised by the proximity to the large mass of metal.
+
+Refer to the white paper Understanding RF Propagation of AMR/AMI Systems on the Badger Meter website.
+Also refer to the Installation Manual – ORION Water Endpoints (page 7, for additional guidelines) on the Badger Meter website.
+
+A proper endpoint installation in this example would be in an auxiliary (second) meter pit with a composite lid installed within 75 feet of the vault.
+
+
+Please contact Dan Merritt if you have any questions.
+
+
+
+
+Documentation Updates
+
+
+Several technical reference documents have recently been updated. The new document versions include up-to-date specifications
+and photos and have been reformatted for improved usability.
+
+Recordall® Fire Series Meters
+
+Fire Series Meter Parts List
+
+E-Series® Ultrasonic Meters
+
+E-Series Ultrasonic Meter Quick Start Guide
+
+BEACON AMA
+
+BEACON AMA Managed Solution Endpoint Warranty
+
+
+Topics in this Issue
+
+
+BEACON AMA Starter Kits
+
+HR-E and E-Series Animations
+
+Installing Endpoints
+
+Documentation Updates
+
+Events
+
+Badger Meter Gear
+
+eNews Archive
+
+
+Events
+
+WEFTEC
+
+Sep. 27 - Oct. 1, 2014
+
+New Orleans, LA
+
+Register
+
+
+NRWA
+
+Oct. 6 - Oct. 8, 2014
+
+Seattle, WA
+
+Register
+
+
+Full List of Events
+
+
+Get Badger Meter Gear
+
+
+Conveniently shop online for a wide range of Badger Meter merchandise: shirts, hats, water bottles, pens, and more.
+SHOP NOW
+
+
+eNews Archive
+
+
+
+September 3, 2014
+
+August 15, 2014
+
+August 1, 2014
+
+July 15, 2014
+
+July 1, 2014
+
+June 17, 2014
+
+June 3, 2014
+
+
+Stay Connected
+
+
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have. Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>AHR Expo 2014 Post-Show Maida</name>
+    <style>none</style>
+    <subject>Flow control you can count on. | Thanks for visiting us at AHR Expo</subject>
+    <textOnly>View Web Version
+
+
+Thank you for visiting the Badger Meter booth
+at AHR Expo!
+
+
+We look forward to talking with you more about how Badger Meter energy monitors, transmitters and flow meters would be a fit for your application.
+
+
+Badger Meter is a leading manufacturer of flow measurement products and control technologies. Our line of Btu flow instruments allows users to measure energy demand and resource usage with confidence. Plus, our hydronic energy monitors, transmitters and flow meter solutions are both BACnet® and Modbus® protocol compatible and interface with most existing control systems.
+Badger Meter’s export sales representative, Maida International LTD, will be in contact with you soon to discuss any application needs you may have. If you need immediate support, contact Maida International Ltd at www.maidaintl.com.
+We look forward to exploring solutions with you to help your HVAC systems achieve peak performance.
+Sincerely,
+Tracy Lagona
+Director of Industrial Sales
+
+
+
+
+Explore HVAC
+Solutions
+
+Click to download brochure
+
+
+
+
+
+
+Maida International, Ltd.
+
+516-676-3079
+
+sales@maidaintl.com
+
+www.maidaintl.com</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Utility 2014-03-05</name>
+    <style>none</style>
+    <subject>Badger Meter Utility Marketing eNews March 5, 2014 – Confidential &amp; Proprietary</subject>
+    <textOnly>View Web Version
+
+
+Utility Edition | March 5, 2014
+
+Confidential &amp; Proprietary
+
+
+VIDEO: BEACON AMA Press Conference at DistribuTECH 2014
+
+On January 29, 2014, WaterWorld recorded the official Badger Meter press conference announcing the release of BEACON Advanced Metering Analytics (AMA). In this video, Rich Meeusen, chairman, president and CEO, and Kim Stoll, vice president–sales and marketing, discuss this industry-changing product release and the exciting new features BEACON AMA brings to water utilities.
+
+Watch the entire press conference video on the WaterWorld website.
+
+Please contact Dan Merritt if you have any questions.
+
+BEACON AMA Sales Training Presentations
+Now Available
+
+
+The PowerPoint presentation materials used in the recent sales training sessions are now available for your review.
+
+Download the presentations from the
+Badger Meter extranet.
+
+Video presentations will also be made available in the coming weeks. Please watch the Badger Meter extranet and the next eNews for further details.
+
+
+Please note these are for internal training use only. Other reference and sales support materials dealing with BEACON AMA are available on the Badger Meter extranet under the
+BEACON AMA folder.
+
+
+Please contact Dan Merritt if you have any questions.
+
+
+
+BEACON AMA Managed Solution Quoting Guidelines
+
+
+Below are a few easy guidelines to help you get started selling the BEACON AMA managed solution.
+
+
+1. Starter Kits
+
+ORION® Cellular Marketing Starter Kits do not require a Propagation Study or a BEACON AMA System pricing proposal. The Starter Kit will run until the customer wants to deploy an expanded BEACON AMA system.
+
+
+2. Propagation Study
+
+A propagation study should be requested when a customer wants to proceed with a BEACON AMA deployment or when we are responding to a bid or RFP.
+
+The AMI Site Planning Form is found on the Badger Meter extranet. The completed form should be emailed to: BEACONPropStudyRequests@badgermeter.com
+
+In order to complete the form, you will need the following:
+
+Number of endpoints planned to be part of the system.
+Service area in square miles.
+Pit, indoor or combination location of meters.
+Identify:
+- Whether project is a distributor account
+- Potential competitors involved at the account
+
+The submission of the propagation study form drives the completion of two documents that will be returned to the Badger Meter sales representative–the preliminary propagation study and the BEACON AMA System pricing proposal.
+
+
+3. Quote Requests Through Customer Service
+
+When the customer decides to expand their system, a Big Machines quote can be provided to the utility.
+
+
+To complete the Big Machines quote, you will need a BEACON AMA System pricing proposal. This document will contain pricing guidelines to help set the monthly subscription fee. If the request is for a distributor account, the Badger Meter sales representative will review the pricing guidelines with the distributor to help set the fee.
+
+
+Once the monthly subscription fee is set, return the BEACON AMA System pricing proposal form, along with all other product and pricing information to be included in the quote to your customer service representative, who will then prepare and send you the quote.
+
+
+4. Multiple Solutions
+
+We will not issue both an ORION Fixed Network (SE) and a BEACON AMA managed solution quote. Life cycle cost models are available on the Badger Meter extranet to help with determining the best solution for the customer, which also will avoid the need for multiple propagation studies.
+
+
+Please contact John Fillinger if you have any questions.
+
+
+BEACON AMA Demonstration Sites
+
+
+Resources to help demonstrate the BEACON AMA software suite are located on the Badger Meter extranet.
+
+
+You will need to set up a login and password to access the demonstration sites. Everyone who attended regional training sessions in February has been sent an invitation to set these up. If you have not already received your email invite, please check your junk folder. If you did not receive an email invitation, please contact Morrice Blackwell.
+
+
+Please note, to protect the security and privacy of our customers, the data used in the utility demonstration site is simulated. Data can be modified to demonstrate the capabilities of the software, but please do not save your changes.
+
+
+Note: Currently, Google Chrome or Mozilla Firefox are the preferred browsers for using this demonstration website.
+
+
+Please contact Kristie Anderson if you have any questions.
+
+
+NEW! Introducing the 5/8 inch E-Series® Ultrasonic Engineered Polymer Meter
+
+
+Badger Meter is pleased to announce the 5/8 inch engineered polymer E-Series Ultrasonic meter is available for sale. The newest member of the E-Series electronic metering line was designed for utility potable water applications. The engineered polymer models provide your customers with a cost-effective option for electronic and, specifically, ultrasonic metering. The engineered polymer line includes the following sizes: 5/8 x 3/4”, 3/4”, 1”, and 5/8”, the newest addition.
+
+
+All of our E-Series Ultrasonic meters are regulation-compliant and are available in a wide range of sizing options in either engineered polymer or stainless steel. Your choice in a water metering solution counts–choose from the many Badger Meter offerings to find a solution that meets your specific needs.
+
+
+Features
+
+Meter Size – 5/8 in.
+Lay Length – 7.5 in.
+Weight – 1.60 lbs.
+Flow Rate – 0.1…25 gpm.
+Extended Low Flow Rate – 0.05 gpm.
+Pressure Loss – 4.3 psi at 15 gpm.
+
+
+Agency Approvals
+
+AWWA – Designed to meet and exceed applicable portions of ANSI/AWWA standard C700. NOTE: No current AWWA standard specifically addresses ultrasonic meters for residential applications.
+NSF – Complies with the lead-free provisions of the Safe Drinking Water Act, certified to NSF/ANSI Standards 61 and 372 and the NSF-61 mark on the housing.
+
+High Resolution Output Protocol - Available for all Engineered Polymer Meters
+
+Providing more than just a reading, the high resolution protocol provides visibility to status indicators including: meter functioning correctly, meter alarm (includes empty pipe, low temperature, other meter or sensor issues), reverse flow, suspected leak, 30-day no usage, and battery end-of-life. The HR E-Series provides connectivity to Badger Meter ORION® Cellular, Fixed Network (SE), Migratable (ME), and Classic (CE) endpoints as well as Itron 100W Erts using the industry standard ASCII protocol. Approved endpoints, including ORION Cellular, ORION Fixed Network (SE) and ORION Migratable (ME), transmit the status indicators to the BEACON AMA software.
+
+
+Endpoint Reading Resolutions
+
+The E-Series Ultrasonic meter high resolution output is nine digits. Reading resolutions sent to the reading software rely on the encoder/endpoint connection. Readings reported from the endpoints are the left-most significant digits of the encoder reading. In addition to reading resolution, the status indicator reporting capabilities of the encoders are dependent on both the endpoint technology and the version of reading management software.
+
+
+Customer Education
+
+Direct and distributor sales may share hardware/software requirements with existing ORION, GALAXY® and ITRON customers when discussing the new high resolution output, and most importantly, at time of first order.
+
+
+Prior to placing a first-time order of high resolution E-Series Ultrasonic meters, consult Pivotal customer equipment records to make sure that existing ORION, GALAXY or ITRON customers have the required versions of hardware/software.
+
+
+Lead Time
+
+Standard E-Series Ultrasonic meter lead times apply and will be based on demand.
+
+
+Pricing
+
+The Utility Products Price list has been updated to include pricing for the new 5/8” engineered polymer ultrasonic meter. The E-Series Ultrasonic engineered polymer meter has been priced to provide utilities with a cost-effective metering option for utilities looking to deploy electronic meters.
+
+
+Warranty
+
+Identical to the Badger Meter stainless steel ultrasonic meters, engineered polymer meters have a twenty (20) years and six (6) months materials and workmanship warranty. The electronics, battery, transducer, and register are warranted for twenty (20) years and six (6) months; prorated after shipment from Badger Meter.
+
+
+Documentation
+
+Updated E-Series Ultrasonic meter documentation can be found on the Badger Meter website and extranet.
+
+Badger Meter Website
+Badger Meter Extranet
+
+Please contact Brooke Lange if you have any questions.
+
+
+
+Recordall 16 inch and 20 inch Turbo Series Meters to be Discontinued
+
+
+Badger Meter 16 inch and 20 inch Recordall® Turbo Series meters and head assemblies are being discontinued by our supplier. We have a limited number of complete meters available for new orders and a small inventory of head assemblies available to support existing meters in the field. Please check availability with customer service prior to accepting orders for this product. As an alternative to these turbo meters, customers should be transitioned to our M-Series® Electromagnetic flow meter offering. When compared to a turbo meter, the mag meter provides a more accurate and cost effective solution for utilities with large flow requirements.
+
+
+Please contact Jan Boyer if you have any questions.
+
+
+
+2014 Marketing Programs
+
+
+In addition to the ORION Cellular Starter Kit, a new a la carte ORION AMR Starter Kit is now available. This new program gives utility sales the ability to develop handheld and mobile starter kits to fit a utility’s unique needs. Program details can be found on the ORION AMR Starter Kit page of the Utility Product Price List UTL-PL-00053-EN-12, which will be provided to direct and distribution sales forces today.
+
+
+Hardware and software upgrade programs for 2014 have been updated and are available on the Marketing Programs page on the Badger Meter extranet.
+
+
+Please note, Marketing Program numbers have changed
+since 2013.
+
+
+Please contact Sheila Nally if you have any questions.
+
+
+
+Trimble Ranger 3 ORION Classic (CE) Handheld
+
+Status Update
+
+
+Badger Meter has begun replacing the ORION Classic (CE) board in Trimble Ranger 3 handhelds which have been returned under RMI, or for those with an open incident report. To ensure maximum handheld reading performance, Badger Meter will proactively replace the ORION Classic (CE) radio board for all Trimble Ranger 3 handhelds shipped to date. Utilities will be contacted when it is time to send in their handheld for retrofit. Initial quantities of the new radio board are limited and are being used to address immediate customer needs. As a result, please do not send in handhelds unless asked to do so by Badger Meter Technical Support.
+
+
+Please contact Sheila Nally if you have any questions.
+
+
+Topics in this Issue
+
+
+BEACON AMA Video
+
+BEACON AMA Presentations
+
+BEACON AMA Quoting
+
+BEACON AMA Demo Site
+
+New E-Series Ultrasonic Meter
+
+16&quot; &amp; 20&quot; Turbo Discontinued
+
+2014 Marketing Programs
+
+Trimble Status Update
+
+Events
+
+Badger Meter Gear
+
+
+Events
+
+
+ACE14
+
+Booth 1911
+
+June 8-12, 2014
+
+Boston, MA
+
+Register Now
+
+
+
+Full List of Events
+
+Get Badger Meter Gear
+
+
+Conveniently shop online for a wide range of Badger Meter merchandise: shirts, hats, water bottles, pens, and more.
+
+Stay Connected
+
+
+
+
+As always, we welcome your input. Please feel free to contact us with any comments or suggestions you may have.
+
+Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>

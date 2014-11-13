@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Special Announcement - Customer Service Unavailable on May 9th</name>
+    <style>none</style>
+    <subject>Reminder - Customer Service Unavailable on May 9th</subject>
+    <textOnly>View Web Version
+
+
+Customer Service Unavailable on May 9th | May 8, 2014
+
+Confidential &amp; Proprietary
+
+
+Customer Service Unavailable on
+Friday, May 9th
+
+
+As previously communicated in our May 1st eNews, we&apos;d like to remind you that on Friday, May 9th, Milwaukee Customer Service will be closed and unavailable for inquiries and orders due to necessary system upgrades. Please plan accordingly. We apologize in advance for any inconvenience.
+
+Did you miss the Flow Instrumentation webinar?
+Watch it on the extranet!
+If you missed the webinar on April 25th, be sure to watch the recording available on the extranet. Judson Luke, marketing services manager, conducted a quick-hitting, sales-focused explanation for the Flow Instrumentation re-branding. The presentation is also available on the extranet in PDF and PowerPoint formats.
+Download the PDF
+Download the PowerPoint
+Watch the video
+
+
+Topics in this Issue
+
+
+Cust. Service Closed May 9
+
+Webinar Recording
+
+New Overview Brochure
+
+New Overview Brochure
+
+
+To enhance our new Flow Instrumentation branding, we have redesigned the Product Overview brochure, which includes our entire line of flow instrumentation products.
+
+
+Click to download
+
+
+
+
+As always, we welcome your input. Please contact us with any comments or suggestions you may have. Marketing eNews Feedback</textOnly>
+    <type>custom</type>
+</EmailTemplate>
